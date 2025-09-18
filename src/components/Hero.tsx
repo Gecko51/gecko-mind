@@ -64,7 +64,12 @@ export const Hero = () => {
             <p className="text-sm text-muted-foreground">Approche disciplinée de l'hyperautomation</p>
             <div className="flex items-center gap-2">
               <div className="flex -space-x-2">
-                <div className="w-8 h-8 bg-gradient-primary rounded-full border-2 border-background" />
+                <div className="w-8 h-8 bg-[#3ECF8E] rounded-full border-2 border-background flex items-center justify-center">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.362 9.354H12.638C10.267 9.354 8.824 6.915 10.015 4.848L15.378 -3.654C15.826 -4.438 16.956 -4.438 17.404 -3.654L22.767 4.848C23.958 6.915 22.515 9.354 20.144 9.354H21.362Z" fill="white"/>
+                    <path d="M2.638 14.646H11.362C13.733 14.646 15.176 17.085 13.985 19.152L8.622 27.654C8.174 28.438 7.044 28.438 6.596 27.654L1.233 19.152C0.042 17.085 1.485 14.646 3.856 14.646H2.638Z" fill="white"/>
+                  </svg>
+                </div>
                 <div className="w-8 h-8 bg-gradient-to-r from-secondary to-primary rounded-full border-2 border-background" />
                 <div className="w-8 h-8 bg-gradient-to-r from-primary to-accent rounded-full border-2 border-background" />
               </div>
