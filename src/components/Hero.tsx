@@ -61,7 +61,7 @@ export const Hero = () => {
 
           {/* Social proof */}
           <div className="flex flex-col items-center gap-4">
-            <p className="text-sm text-muted-foreground">Approche disciplinée de l'hyperautomation</p>
+            
             <div className="flex items-center gap-2">
               <div className="flex -space-x-2">
                 <div className="w-8 h-8 bg-[#3ECF8E] rounded-full border-2 border-background flex items-center justify-center">
