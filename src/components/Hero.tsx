@@ -36,7 +36,7 @@ export const Hero = () => {
               <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
                 potentiel
               </span>
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary/20 to-secondary/20 blur-lg animate-glow" />
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary/10 to-secondary/10 blur-lg animate-glow" />
             </span>
           </h1>
 
