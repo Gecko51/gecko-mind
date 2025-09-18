@@ -25,7 +25,7 @@ export const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">
             Contact
           </a>
-          <Button variant="outline" size="default" className="px-4 py-2.5 bg-transparent border-2 border-primary text-foreground hover:bg-gradient-primary hover:text-primary-foreground transition-all duration-300">
+          <Button variant="outline" size="default" className="px-4 py-2.5 bg-transparent border-2 border-primary text-primary hover:bg-gradient-primary hover:text-primary-foreground transition-all duration-300">
             Réserver un appel
           </Button>
         </div>
