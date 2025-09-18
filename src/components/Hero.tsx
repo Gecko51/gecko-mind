@@ -41,7 +41,7 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto leading-relaxed">
             Gecko Design conçoit et déploie des workflows sur-mesure pour automatiser vos processus 
             répétitifs grâce à N8N. Une approche souveraine et conforme RGPD qui libère 
             <span className="text-primary font-semibold"> 60-70% de votre temps</span> pour les tâches à forte valeur ajoutée.
