@@ -25,7 +25,7 @@ export const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">
             Contact
           </a>
-          <Button variant="gradient" size="sm" className="flex items-center gap-2 px-3 py-2 rounded-full">
+          <Button variant="outline" size="sm" className="flex items-center gap-2 px-3 py-2 rounded-full bg-transparent border-primary/20 text-foreground hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition-all duration-300">
             <img 
               src={profileImage} 
               alt="Guillaume Gay" 
