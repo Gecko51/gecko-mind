@@ -55,7 +55,7 @@ export const Hero = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline-glow" size="xl">
-              Planifier un appel avec Guillaume
+              Contactez Guillaume
             </Button>
           </div>
 

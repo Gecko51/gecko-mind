@@ -2,7 +2,6 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
   Mail, 
-  Phone, 
   MessageSquare, 
   Calendar,
   ArrowRight,
@@ -37,7 +36,7 @@ export const Contact = () => {
                     <Calendar className="w-6 h-6 text-primary-foreground" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground">Planifier un appel</h3>
+                    <h3 className="text-xl font-semibold text-foreground">Planifier un rendez-vous</h3>
                     <p className="text-primary font-medium">Découverte gratuite - 30 min</p>
                   </div>
                 </div>
@@ -105,20 +104,6 @@ export const Contact = () => {
                 </div>
               </Card>
 
-              <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                    <Phone className="w-5 h-5 text-primary-foreground" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Appel direct</h4>
-                    <p className="text-sm text-muted-foreground">Discussion immédiate</p>
-                  </div>
-                  <Button variant="outline-glow" size="sm" className="ml-auto">
-                    Appeler
-                  </Button>
-                </div>
-              </Card>
 
               {/* Trust badge */}
               <Card className="p-4 bg-gradient-card border-border/50 backdrop-blur-sm text-center">

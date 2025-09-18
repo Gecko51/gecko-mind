@@ -59,11 +59,6 @@ export const About = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="gradient" size="lg" className="group">
-                <User className="w-5 h-5" />
-                Planifier un appel
-                <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-              </Button>
               <Button variant="outline-glow" size="lg" className="group">
                 <Linkedin className="w-5 h-5" />
                 Suivre sur LinkedIn
