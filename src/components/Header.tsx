@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Zap, Menu } from "lucide-react";
+import profileImage from "@/assets/profile-guillaume.png";
 
 export const Header = () => {
   return (
@@ -24,8 +25,13 @@ export const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">
             Contact
           </a>
-          <Button variant="gradient" size="sm">
-            Découvrir nos solutions
+          <Button variant="gradient" size="sm" className="flex items-center gap-2 px-3 py-2 rounded-full">
+            <img 
+              src={profileImage} 
+              alt="Guillaume Gay" 
+              className="w-6 h-6 rounded-full object-cover"
+            />
+            Réserver un appel
           </Button>
         </div>
 
