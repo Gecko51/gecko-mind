@@ -29,7 +29,7 @@ export const Header = () => {
             <img 
               src={profileImage} 
               alt="Guillaume Gay" 
-              className="w-6 h-6 rounded-full object-cover"
+              className="w-8 h-8 rounded-full object-cover"
             />
             Réserver un appel
           </Button>
