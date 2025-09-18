@@ -25,13 +25,13 @@ export const Header = () => {
           <a href="#contact" className="text-foreground hover:text-primary transition-colors">
             Contact
           </a>
-          <Button variant="outline" size="default" className="flex items-center gap-2 px-4 py-2.5 bg-transparent border-primary/20 text-foreground hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition-all duration-300">
+          <Button variant="outline" size="default" className="flex items-center gap-3 px-4 py-2.5 bg-transparent border-primary/20 text-foreground hover:bg-gradient-primary hover:text-primary-foreground hover:border-transparent transition-all duration-300">
             <img 
               src={profileImage} 
               alt="Guillaume Gay" 
-              className="w-8 h-8 rounded-full object-cover"
+              className="w-8 h-8 rounded-full object-cover ml-0"
             />
-            Réserver un appel
+            <span>Réserver un appel</span>
           </Button>
         </div>
 
