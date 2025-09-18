@@ -8,7 +8,7 @@ export const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero" />
       <div 
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-10"
         style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
