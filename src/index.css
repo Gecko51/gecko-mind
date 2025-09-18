@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark theme inspired by geckodesign.fr */
+    /* Dark theme with gradient from #fbb830 to orange */
     --background: 220 27% 8%;
     --foreground: 210 40% 98%;
 
@@ -18,18 +18,18 @@ All colors MUST be HSL.
     --popover: 220 27% 10%;
     --popover-foreground: 210 40% 98%;
 
-    /* Orange/Golden brand colors from geckodesign.fr */
-    --primary: 30 100% 60%;
+    /* Gradient colors: #fbb830 to orange */
+    --primary: 43 96% 58%;  /* #fbb830 equivalent */
     --primary-foreground: 220 27% 8%;
-    --primary-dark: 25 100% 55%;
+    --primary-dark: 25 100% 50%; /* orange */
 
-    --secondary: 35 100% 65%;
+    --secondary: 25 100% 50%; /* orange */
     --secondary-foreground: 220 27% 8%;
 
     --muted: 220 27% 15%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 30 100% 60%;
+    --accent: 43 96% 58%;
     --accent-foreground: 220 27% 8%;
 
     --destructive: 0 84.2% 60.2%;
@@ -37,18 +37,18 @@ All colors MUST be HSL.
 
     --border: 220 27% 20%;
     --input: 220 27% 15%;
-    --ring: 30 100% 60%;
+    --ring: 43 96% 58%;
 
     --radius: 0.75rem;
 
-    /* Gradient definitions with orange/golden colors */
-    --gradient-primary: linear-gradient(135deg, hsl(30 100% 60%), hsl(35 100% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(220 27% 8%) 0%, hsl(30 50% 15%) 50%, hsl(35 50% 15%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(220 27% 10%) 0%, hsl(30 30% 12%) 100%);
+    /* Gradient definitions with #fbb830 to orange */
+    --gradient-primary: linear-gradient(135deg, hsl(43 96% 58%), hsl(25 100% 50%));
+    --gradient-hero: linear-gradient(135deg, hsl(220 27% 8%) 0%, hsl(43 50% 15%) 50%, hsl(25 50% 15%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(220 27% 10%) 0%, hsl(43 30% 12%) 100%);
     
-    /* Glow effects with orange */
-    --glow-primary: 0 0 40px hsl(30 100% 60% / 0.3);
-    --glow-secondary: 0 0 40px hsl(35 100% 65% / 0.3);
+    /* Glow effects with yellow-orange */
+    --glow-primary: 0 0 40px hsl(43 96% 58% / 0.3);
+    --glow-secondary: 0 0 40px hsl(25 100% 50% / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -64,16 +64,16 @@ All colors MUST be HSL.
     --popover: 220 27% 10%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 30 100% 60%;
+    --primary: 43 96% 58%;
     --primary-foreground: 220 27% 8%;
 
-    --secondary: 35 100% 65%;
+    --secondary: 25 100% 50%;
     --secondary-foreground: 220 27% 8%;
 
     --muted: 220 27% 15%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 30 100% 60%;
+    --accent: 43 96% 58%;
     --accent-foreground: 220 27% 8%;
 
     --destructive: 0 62.8% 30.6%;
@@ -81,7 +81,7 @@ All colors MUST be HSL.
 
     --border: 220 27% 20%;
     --input: 220 27% 15%;
-    --ring: 30 100% 60%;
+    --ring: 43 96% 58%;
   }
 }
 
