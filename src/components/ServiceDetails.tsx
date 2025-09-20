@@ -55,7 +55,7 @@ export const ServiceDetails = () => {
         <div ref={cardsRef} className={`grid md:grid-cols-3 gap-8 mb-16 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           {benefits.map((benefit, index) => {
           const IconComponent = benefit.icon;
-          return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm hover-scale">
+          return <Card key={index} className="relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
                   <img src={benefit.iconImage} alt="Arrow icon" className="w-12 h-12" />
                 </div>
@@ -64,6 +64,9 @@ export const ServiceDetails = () => {
                 <p className="leading-relaxed" style={{
               color: '#ababab'
             }}>{benefit.description}</p>
+
+                {/* Gradient overlay on hover */}
+                <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </Card>;
         })}
         </div>
