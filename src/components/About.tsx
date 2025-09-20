@@ -7,14 +7,25 @@ import {
   ArrowRight 
 } from "lucide-react";
 import profileImage from "@/assets/profile-guillaume.webp";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 export const About = () => {
+  const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
+  const { ref: cardRef, isVisible: cardVisible } = useScrollAnimation({ threshold: 0.3 });
+
   return (
     <section id="about" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div className="space-y-8">
+          <div 
+            ref={contentRef}
+            className={`space-y-8 transition-all duration-700 ${
+              contentVisible 
+                ? 'opacity-100 translate-x-0' 
+                : 'opacity-0 -translate-x-8'
+            }`}
+          >
             <div>
               <h2 className="text-3xl md:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -67,7 +78,14 @@ export const About = () => {
           </div>
 
           {/* Stats Card */}
-          <div className="space-y-6">
+          <div 
+            ref={cardRef}
+            className={`space-y-6 transition-all duration-700 ${
+              cardVisible 
+                ? 'opacity-100 translate-x-0' 
+                : 'opacity-0 translate-x-8'
+            }`}
+          >
             <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
               <div className="text-center space-y-6">
                 <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6">

@@ -5,10 +5,10 @@ import {
   Shield, 
   TrendingUp, 
   Database, 
-  Zap, 
   ArrowRight,
   CheckCircle
 } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const services = [
   {
@@ -38,10 +38,21 @@ const services = [
 ];
 
 export const Services = () => {
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation({ threshold: 0.2 });
+  const { ref: ctaRef, isVisible: ctaVisible } = useScrollAnimation();
+
   return (
     <section id="services" className="py-20 bg-black">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div 
+          ref={titleRef}
+          className={`text-center mb-16 transition-all duration-700 ${
+            titleVisible 
+              ? 'opacity-100 translate-y-0' 
+              : 'opacity-0 translate-y-8'
+          }`}
+        >
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Notre expertise
@@ -54,11 +65,24 @@ export const Services = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
+        <div 
+          ref={cardsRef}
+          className={`grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16 transition-all duration-1000 ${
+            cardsVisible 
+              ? 'opacity-100 translate-y-0' 
+              : 'opacity-0 translate-y-12'
+          }`}
+        >
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <Card key={index} className="relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2">
+              <Card 
+                key={index} 
+                className={`relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 ${
+                  cardsVisible ? 'animate-fade-in' : ''
+                }`}
+                style={{ animationDelay: `${index * 200}ms` }}
+              >
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-glow">
                     <IconComponent className="w-6 h-6 text-primary-foreground" />
@@ -89,7 +113,14 @@ export const Services = () => {
         </div>
 
         {/* Call to action */}
-        <div className="text-center">
+        <div 
+          ref={ctaRef}
+          className={`text-center transition-all duration-700 ${
+            ctaVisible 
+              ? 'opacity-100 translate-y-0' 
+              : 'opacity-0 translate-y-8'
+          }`}
+        >
           <Card className="inline-block p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
             <div className="flex items-center gap-4 mb-4">
               <div>
