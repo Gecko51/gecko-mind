@@ -12,6 +12,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
 import airtableLogo from "@/assets/airtable-logo.png";
+import mcpLogo from "@/assets/mcp-logo.png";
 
 const services = [
   {
@@ -84,6 +85,11 @@ export const Services = () => {
                 <img 
                   src={airtableLogo} 
                   alt="Airtable" 
+                  className="w-8 h-8 object-contain"
+                />
+                <img 
+                  src={mcpLogo} 
+                  alt="MCP" 
                   className="w-8 h-8 object-contain"
                 />
               </div>
