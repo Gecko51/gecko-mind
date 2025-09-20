@@ -35,9 +35,9 @@ export const About = () => {
                 Architecte des automatisations
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Fondateur de Gecko Design, Guillaume se positionne comme architecte et stratège 
+                Fondateur de Gecko Design, je me positionne comme architecte et stratège 
                 des automatisations déployées, avec une expertise reconnue sur les Agents IA 
-                et les solutions d'IA sur-mesure.
+                et les solutions d'intelligence artificielle sur-mesure.
               </p>
             </div>
 
