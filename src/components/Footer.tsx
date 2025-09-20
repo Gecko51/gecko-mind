@@ -1,4 +1,4 @@
-import { Zap } from "lucide-react";
+import geckoLogo from "@/assets/gecko-logo.png";
 
 export const Footer = () => {
   return (
@@ -8,9 +8,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <Zap className="w-4 h-4 text-primary-foreground" />
-              </div>
+              <img 
+                src={geckoLogo} 
+                alt="Gecko Design Logo" 
+                className="w-8 h-8"
+              />
               <span className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Gecko Design
               </span>
