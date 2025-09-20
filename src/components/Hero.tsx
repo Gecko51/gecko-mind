@@ -24,7 +24,7 @@ export const Hero = () => {
         <div className="animate-fade-in">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-8">
-            <span className="text-sm font-medium">Solutions IA sur-mesure</span>
+            <span className="text-sm font-bold">Solutions IA sur-mesure</span>
           </div>
 
           {/* Main headline */}
