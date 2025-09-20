@@ -1,15 +1,15 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
-  Mail, 
-  MessageSquare, 
-  Calendar,
   ArrowRight,
   Sparkles,
   Check,
   Zap
 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import clipboardIcon from "@/assets/clipboard-icon.png";
+import emailIcon from "@/assets/email-icon.png";
+import commentIcon from "@/assets/comment-icon.png";
 
 export const Contact = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
@@ -52,8 +52,8 @@ export const Contact = () => {
             <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm relative overflow-hidden group">
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-glow">
-                    <Calendar className="w-6 h-6 text-primary-foreground" />
+                  <div className="w-12 h-12 flex items-center justify-center">
+                    <img src={clipboardIcon} alt="Planifier" className="w-10 h-10 opacity-80" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-foreground">Planifier un rendez-vous</h3>
@@ -82,7 +82,7 @@ export const Contact = () => {
                 </div>
 
                 <Button variant="hero" size="lg" className="w-full group">
-                  <Calendar className="w-5 h-5" />
+                  <img src={clipboardIcon} alt="Calendrier" className="w-5 h-5 opacity-80" />
                   Réserver un créneau
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -96,8 +96,8 @@ export const Contact = () => {
             <div className="space-y-4">
               <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                    <Mail className="w-5 h-5 text-primary-foreground" />
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img src={emailIcon} alt="Email" className="w-8 h-8 opacity-80" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email direct</h4>
@@ -111,8 +111,8 @@ export const Contact = () => {
 
               <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                    <MessageSquare className="w-5 h-5 text-primary-foreground" />
+                  <div className="w-10 h-10 flex items-center justify-center">
+                    <img src={commentIcon} alt="Message" className="w-8 h-8 opacity-80" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">LinkedIn</h4>
