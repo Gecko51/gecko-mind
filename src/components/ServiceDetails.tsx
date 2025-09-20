@@ -1,9 +1,10 @@
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
+import { ArrowRight, Zap, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import auctionIcon from "@/assets/auction-icon.png";
 const benefits = [{
-  icon: Target,
-  title: "Réduction des opérations manuelles",
+  icon: "auction",
+  title: "Réduction des opérations manuelles",  
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
@@ -51,7 +52,11 @@ export const ServiceDetails = () => {
             animationDelay: `${index * 200}ms`
           }}>
                 <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-6 group-hover:animate-glow">
-                  <IconComponent className="w-6 h-6 text-primary-foreground" />
+                  {benefit.icon === "auction" ? (
+                    <img src={auctionIcon} alt="Auction" className="w-6 h-6" />
+                  ) : (
+                    <IconComponent className="w-6 h-6 text-primary-foreground" />
+                  )}
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>
