@@ -56,8 +56,8 @@ export const Services = () => {
             animationDelay: `${index * 200}ms`
           }}>
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-glow">
-                    <img src={service.iconImage} alt={service.title} className="w-6 h-6" />
+                  <div className="w-12 h-12 flex items-center justify-center">
+                    <img src={service.iconImage} alt={service.title} className="w-10 h-10 opacity-80" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-foreground">{service.title}</h3>
