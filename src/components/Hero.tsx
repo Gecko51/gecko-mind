@@ -50,7 +50,7 @@ export const Hero = () => {
               Découvrir les agents IA
             </Button>
             <Button variant="outline-glow" size="lg">
-              Contactez Guillaume
+              Contacter Guillaume
             </Button>
           </div>
 
