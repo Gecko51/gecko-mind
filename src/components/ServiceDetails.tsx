@@ -11,7 +11,7 @@ const benefits = [{
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
-  iconImage: arrowIcon,
+  iconImage: miningIcon,
   title: "Accéleration des cycles",
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
