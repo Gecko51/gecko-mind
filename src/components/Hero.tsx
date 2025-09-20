@@ -40,7 +40,7 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed" style={{ color: '#ababab' }}>
+          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
             Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs avec l'intelligence artificielle.
           </p>
 
