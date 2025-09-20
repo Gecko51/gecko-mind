@@ -24,9 +24,9 @@ export const Mission = () => {
           </h2>
           <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#919aa6' }}>
             J'aide les entreprises à transformer leurs processus chronophages en workflows autonomes qui 
-            <span className="text-primary font-medium"> génèrent du chiffre</span>, 
-            <span className="text-secondary font-medium"> libèrent du temps</span> et 
-            <span className="text-primary font-medium"> respectent les réglementations</span> (RGPD, DPA).
+            <span className="font-medium"> génèrent du chiffre</span>, 
+            <span className="font-medium"> libèrent du temps</span> et 
+            <span className="font-medium"> respectent les réglementations</span> (RGPD, DPA).
           </p>
         </div>
 
