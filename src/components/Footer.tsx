@@ -11,7 +11,7 @@ export const Footer = () => {
               <img 
                 src={geckoLogo} 
                 alt="Gecko Design Logo" 
-                className="w-8 h-8"
+                className="w-6 h-6"
               />
               <span className="text-lg font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Gecko Design
