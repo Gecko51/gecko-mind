@@ -4,14 +4,17 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import arrowIcon from "@/assets/arrow-icon.png";
 const benefits = [{
   icon: Target,
+  iconImage: arrowIcon,
   title: "Réduction des opérations manuelles",
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
-  title: "Accélération des cycles",
+  iconImage: arrowIcon,
+  title: "Accéleration des cycles",
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
   icon: Users,
+  iconImage: arrowIcon,
   title: "Gain de temps précieux",
   description: "Des heures chaque semaine à réinvestir dans la stratégie, l'innovation et la satisfaction client"
 }];
@@ -50,7 +53,7 @@ export const ServiceDetails = () => {
           const IconComponent = benefit.icon;
           return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
-                  <img src={arrowIcon} alt="Arrow icon" className="w-14 h-14" />
+                  <img src={benefit.iconImage} alt="Arrow icon" className="w-14 h-14" />
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>
