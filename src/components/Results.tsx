@@ -86,7 +86,7 @@ export const Results = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-glow">
+                  <div className="w-12 h-12 flex items-center justify-center">
                     <img src={metric.iconImage} alt={metric.title} className="w-6 h-6" />
                   </div>
                   <div className="flex-1">
