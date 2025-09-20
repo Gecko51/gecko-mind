@@ -74,17 +74,17 @@ export const Services = () => {
                 <img 
                   src={n8nLogo} 
                   alt="n8n" 
-                  className="w-12 h-12 object-contain"
+                  className="w-8 h-8 object-contain"
                 />
                 <img 
                   src={supabaseLogo} 
                   alt="Supabase" 
-                  className="w-12 h-12 object-contain"
+                  className="w-8 h-8 object-contain"
                 />
                 <img 
                   src={airtableLogo} 
                   alt="Airtable" 
-                  className="w-12 h-12 object-contain"
+                  className="w-8 h-8 object-contain"
                 />
               </div>
               <span className="text-lg font-medium text-foreground drop-shadow-lg">+400 connecteurs disponibles</span>
