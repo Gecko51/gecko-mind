@@ -1,31 +1,24 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { 
-  Linkedin, 
-  MessageCircle, 
-  Target,
-  ArrowRight 
-} from "lucide-react";
+import { Linkedin, MessageCircle, Target, ArrowRight } from "lucide-react";
 import profileImage from "@/assets/profile-guillaume.webp";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-
 export const About = () => {
-  const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
-  const { ref: cardRef, isVisible: cardVisible } = useScrollAnimation({ threshold: 0.3 });
-
-  return (
-    <section id="about" className="py-20 bg-black">
+  const {
+    ref: contentRef,
+    isVisible: contentVisible
+  } = useScrollAnimation();
+  const {
+    ref: cardRef,
+    isVisible: cardVisible
+  } = useScrollAnimation({
+    threshold: 0.3
+  });
+  return <section id="about" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
-          <div 
-            ref={contentRef}
-            className={`space-y-8 transition-all duration-700 ${
-              contentVisible 
-                ? 'opacity-100 translate-x-0' 
-                : 'opacity-0 -translate-x-8'
-            }`}
-          >
+          <div ref={contentRef} className={`space-y-8 transition-all duration-700 ${contentVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-8'}`}>
             <div>
               <h2 className="text-3xl md:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
@@ -43,9 +36,7 @@ export const About = () => {
 
             <div className="space-y-4">
               <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center mt-1">
-                  <Target className="w-4 h-4 text-primary-foreground" />
-                </div>
+                
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Expertise opérationnelle</h3>
                   <p className="text-muted-foreground">
@@ -57,18 +48,7 @@ export const About = () => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
-                <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center mt-1">
-                  <MessageCircle className="w-4 h-4 text-primary-foreground" />
-                </div>
-                <div>
-                  <h3 className="font-semibold text-foreground mb-2">Communication engageante</h3>
-                  <p className="text-muted-foreground">
-                    Une activité de community management LinkedIn avec une écriture professionnelle, 
-                    un atout pour diffuser les valeurs et cas d'usage auprès des décideurs.
-                  </p>
-                </div>
-              </div>
+              
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
@@ -80,22 +60,11 @@ export const About = () => {
           </div>
 
           {/* Stats Card */}
-          <div 
-            ref={cardRef}
-            className={`space-y-6 transition-all duration-700 ${
-              cardVisible 
-                ? 'opacity-100 translate-x-0' 
-                : 'opacity-0 translate-x-8'
-            }`}
-          >
+          <div ref={cardRef} className={`space-y-6 transition-all duration-700 ${cardVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
             <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
               <div className="text-center space-y-6">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
-                  <img 
-                    src={profileImage} 
-                    alt="Guillaume Gay - Fondateur Gecko Design" 
-                    className="w-full h-full object-cover"
-                  />
+                  <img src={profileImage} alt="Guillaume Gay - Fondateur Gecko Design" className="w-full h-full object-cover" />
                 </div>
                 
                 <div>
@@ -127,6 +96,5 @@ export const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
