@@ -75,7 +75,7 @@ export const Hero = () => {
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1">
+                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1 relative z-0">
                   <img 
                     src={airtableLogo} 
                     alt="Airtable" 
