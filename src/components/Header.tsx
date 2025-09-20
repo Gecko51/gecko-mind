@@ -11,7 +11,7 @@ export const Header = () => {
           <img 
             src={geckoLogo} 
             alt="Gecko Design Logo" 
-            className="w-8 h-8"
+            className="w-6 h-6"
           />
           <span className="text-xl font-bold text-white">
             Gecko Design
