@@ -6,31 +6,29 @@ import geckoLogo from "@/assets/gecko-logo.png";
 export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
-      <nav className="container mx-auto px-6 py-3 flex items-center justify-between">
-        <div className="flex items-center gap-3">
-          <div className="flex items-center gap-2 bg-black/90 backdrop-blur-sm px-4 py-2 rounded-full">
-            <img 
-              src={geckoLogo} 
-              alt="Gecko Design Logo" 
-              className="w-6 h-6"
-            />
-            <span className="text-white font-bold text-lg">
-              Gecko Design
-            </span>
-          </div>
+      <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="flex items-center gap-2">
+          <img 
+            src={geckoLogo} 
+            alt="Gecko Design Logo" 
+            className="w-8 h-8"
+          />
+          <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            Gecko Design
+          </span>
         </div>
         
         <div className="hidden md:flex items-center gap-8">
-          <a href="#services" className="text-white/90 hover:text-white transition-colors text-sm font-medium">
+          <a href="#services" className="text-foreground hover:text-primary transition-colors">
             Services
           </a>
-          <a href="#about" className="text-white/90 hover:text-white transition-colors text-sm font-medium">
+          <a href="#about" className="text-foreground hover:text-primary transition-colors">
             À propos
           </a>
-          <a href="#contact" className="text-white/90 hover:text-white transition-colors text-sm font-medium">
+          <a href="#contact" className="text-foreground hover:text-primary transition-colors">
             Contact
           </a>
-          <Button className="px-6 py-2.5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-600 hover:to-orange-700 text-white font-medium rounded-full transition-all duration-300 shadow-lg hover:shadow-xl">
+          <Button variant="outline" size="default" className="px-4 py-2.5 bg-transparent border-2 border-primary text-primary hover:bg-gradient-primary hover:text-primary-foreground transition-all duration-300">
             Réserver un appel
           </Button>
         </div>
