@@ -3,7 +3,6 @@ import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import arrowIcon from "@/assets/arrow-icon.png";
 import miningIcon from "@/assets/mining-icon.png";
-import tickIcon from "@/assets/tick-icon.png";
 const benefits = [{
   icon: Target,
   iconImage: miningIcon,
@@ -11,7 +10,7 @@ const benefits = [{
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
-  iconImage: tickIcon,
+  iconImage: arrowIcon,
   title: "Accéleration des cycles",
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
