@@ -61,7 +61,7 @@ export const Contact = () => {
                   </div>
                 </div>
 
-                <p className="text-muted-foreground mb-6">
+                <p style={{ color: '#ababab' }} className="mb-6">
                   Échangeons sur vos processus actuels et identifions les opportunités 
                   d'automatisation les plus impactantes pour votre business.
                 </p>
