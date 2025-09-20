@@ -41,7 +41,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto leading-relaxed">
-            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs.
+            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs avec l'intelligence artificielle.
           </p>
 
           {/* CTA Buttons */}
