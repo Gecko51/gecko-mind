@@ -53,7 +53,7 @@ export const ServiceDetails = () => {
         <div ref={cardsRef} className={`grid md:grid-cols-3 gap-8 mb-16 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           {benefits.map((benefit, index) => {
           const IconComponent = benefit.icon;
-          return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
+           return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm hover-scale">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
                   <img src={benefit.iconImage} alt="Arrow icon" className="w-14 h-14" />
                 </div>
