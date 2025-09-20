@@ -13,7 +13,7 @@ export const Header = () => {
             alt="Gecko Design Logo" 
             className="w-8 h-8"
           />
-          <span className="text-xl font-extrabold text-white">
+          <span className="text-xl font-bold text-white">
             Gecko Design
           </span>
         </div>
