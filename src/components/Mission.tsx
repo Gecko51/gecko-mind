@@ -47,7 +47,7 @@ export const Mission = () => {
           </div>
 
           <div className="text-center group">
-            <div className="w-16 h-16 bg-gradient-secondary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
+            <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 group-hover:animate-glow">
               <Clock className="w-8 h-8 text-primary-foreground" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libèrent du temps</h3>
