@@ -1,15 +1,18 @@
 import { Button } from "@/components/ui/button";
-import { Zap, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import profileImage from "@/assets/profile-guillaume.png";
+import geckoLogo from "@/assets/gecko-logo.png";
 
 export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-            <Zap className="w-5 h-5 text-primary-foreground" />
-          </div>
+          <img 
+            src={geckoLogo} 
+            alt="Gecko Design Logo" 
+            className="w-10 h-10"
+          />
           <span className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Gecko Design
           </span>
