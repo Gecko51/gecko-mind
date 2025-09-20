@@ -82,9 +82,7 @@ export const Contact = () => {
                 </div>
 
                 <Button variant="hero" size="lg" className="w-full group">
-                  <img src={clipboardIcon} alt="Calendrier" className="w-5 h-5 opacity-80" />
                   Réserver un créneau
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </div>
 
