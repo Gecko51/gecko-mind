@@ -41,7 +41,7 @@ export const ServiceDetails = () => {
             amplifiez l'essentiel.
           </h2>
           
-          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. <br />Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.</p>
+          <p className="text-lg text-white max-w-4xl mx-auto leading-relaxed">Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. <br />Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.</p>
         </div>
 
         <div ref={cardsRef} className={`grid md:grid-cols-3 gap-8 mb-16 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
