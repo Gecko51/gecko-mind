@@ -27,7 +27,7 @@ export const About = () => {
                 <br />
                 Architecte des automatisations
               </h2>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg leading-relaxed" style={{ color: '#ababab' }}>
                 Fondateur de Gecko Design, je me positionne comme architecte et stratège 
                 des automatisations déployées, avec une expertise reconnue sur les Agents IA 
                 et les solutions d'intelligence artificielle sur-mesure.
