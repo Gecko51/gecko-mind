@@ -22,7 +22,7 @@ export const Mission = () => {
             </span>{" "}
             <span className="text-foreground">de votre entreprise</span>
           </h2>
-          <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#919aa6' }}>
+          <p className="text-lg max-w-4xl mx-auto leading-relaxed text-white">
             Transformez vos tâches répétitives en avantage concurrentiel. J'automatise vos processus pour multiplier votre productivité tout en garantissant une conformité totale RGPD et DPA.
           </p>
         </div>
