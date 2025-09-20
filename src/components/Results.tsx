@@ -87,7 +87,7 @@ export const Results = () => {
               >
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 flex items-center justify-center">
-                    <img src={metric.iconImage} alt={metric.title} className="w-6 h-6" />
+                    <img src={metric.iconImage} alt={metric.title} className="w-12 h-12" />
                   </div>
                   <div className="flex-1">
                     <div className="text-2xl font-bold text-primary mb-1">{metric.metric}</div>
