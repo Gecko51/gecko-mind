@@ -2,10 +2,14 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { TrendingUp, DollarSign, Clock, Users, ArrowRight } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import topArrowIcon from "@/assets/top-arrow-icon.png";
+import favouriteIcon from "@/assets/favourite-icon.png";
+import boltIcon from "@/assets/bolt-icon.png";
 
 const metrics = [
   {
     icon: TrendingUp,
+    iconImage: topArrowIcon,
     title: "Efficacité opérationnelle",
     description: "Augmentation significative de l'efficacité opérationnelle",
     metric: "+70%",
@@ -13,6 +17,7 @@ const metrics = [
   },
   {
     icon: DollarSign,
+    iconImage: favouriteIcon,
     title: "Réduction des coûts",
     description: "Réduction des coûts et optimisation des ressources",
     metric: "ROI",
@@ -20,6 +25,7 @@ const metrics = [
   },
   {
     icon: Clock,
+    iconImage: boltIcon,
     title: "Réactivité client",
     description: "3 fois plus de réactivité sur les interactions client",
     metric: "3x",
@@ -81,7 +87,7 @@ export const Results = () => {
               >
                 <div className="flex items-start gap-4 mb-6">
                   <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:animate-glow">
-                    <IconComponent className="w-6 h-6 text-primary-foreground" />
+                    <img src={metric.iconImage} alt={metric.title} className="w-6 h-6" />
                   </div>
                   <div className="flex-1">
                     <div className="text-2xl font-bold text-primary mb-1">{metric.metric}</div>
