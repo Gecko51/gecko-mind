@@ -39,7 +39,7 @@ export const Mission = () => {
         >
           <div className="text-center group">
             <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <img src={sendMoneyIcon} alt="Send money icon" className="w-8 h-8" />
+              <img src={sendMoneyIcon} alt="Send money icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Génèrent du chiffre</h3>
             <p className="text-muted-foreground">Workflows qui contribuent directement à vos revenus</p>
@@ -47,7 +47,7 @@ export const Mission = () => {
 
           <div className="text-center group">
             <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <img src={clockIcon} alt="Clock icon" className="w-8 h-8" />
+              <img src={clockIcon} alt="Clock icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libèrent du temps</h3>
             <p className="text-muted-foreground">Plus de temps pour la stratégie et l'innovation</p>
@@ -55,7 +55,7 @@ export const Mission = () => {
 
           <div className="text-center group">
             <div className="w-16 h-16 flex items-center justify-center mx-auto mb-4">
-              <img src={checkSecurityIcon} alt="Check security icon" className="w-8 h-8" />
+              <img src={checkSecurityIcon} alt="Check security icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Respectent les règles</h3>
             <p className="text-muted-foreground">Conformité RGPD et DPA garantie</p>
