@@ -47,7 +47,7 @@ export const Services = () => {
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Notre expertise
+              Une expertise
             </span>{" "}
             au service de votre productivité
           </h2>
