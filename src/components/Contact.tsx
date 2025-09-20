@@ -10,7 +10,7 @@ import {
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-gradient-to-b from-background to-muted/20">
+    <section id="contact" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
