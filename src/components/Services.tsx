@@ -9,6 +9,9 @@ import {
   CheckCircle
 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import supabaseLogo from "@/assets/supabase.png";
+import n8nLogo from "@/assets/n8n-logo.png";
+import airtableLogo from "@/assets/airtable-logo.png";
 
 const services = [
   {
@@ -63,6 +66,30 @@ export const Services = () => {
             Des solutions d'automatisation pensées pour libérer votre équipe des tâches répétitives 
             et la recentrer sur les activités à forte valeur ajoutée.
           </p>
+          
+          {/* Social proof */}
+          <div className="flex flex-col items-center gap-4 mt-8">
+            <div className="flex items-center gap-2">
+              <div className="flex gap-4">
+                <img 
+                  src={n8nLogo} 
+                  alt="n8n" 
+                  className="w-12 h-12 object-contain"
+                />
+                <img 
+                  src={supabaseLogo} 
+                  alt="Supabase" 
+                  className="w-12 h-12 object-contain"
+                />
+                <img 
+                  src={airtableLogo} 
+                  alt="Airtable" 
+                  className="w-12 h-12 object-contain"
+                />
+              </div>
+              <span className="text-lg font-medium text-foreground drop-shadow-lg">+400 connecteurs disponibles</span>
+            </div>
+          </div>
         </div>
 
         <div 
