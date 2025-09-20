@@ -2,9 +2,10 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import arrowIcon from "@/assets/arrow-icon.png";
+import miningIcon from "@/assets/mining-icon.png";
 const benefits = [{
   icon: Target,
-  iconImage: arrowIcon,
+  iconImage: miningIcon,
   title: "Réduction des opérations manuelles",
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
