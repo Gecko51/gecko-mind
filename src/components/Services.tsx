@@ -55,7 +55,7 @@ export const Services = () => {
           return <Card key={index} className={`relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 ${cardsVisible ? 'animate-fade-in' : ''}`} style={{
             animationDelay: `${index * 200}ms`
           }}>
-                <div className="flex items-start gap-4 mb-6">
+                <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 flex items-center justify-center">
                     <img src={service.iconImage} alt={service.title} className="w-10 h-10 opacity-80" />
                   </div>
