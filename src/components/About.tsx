@@ -88,7 +88,7 @@ export const About = () => {
           >
             <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
               <div className="text-center space-y-6">
-                <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6">
+                <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
                   <img 
                     src={profileImage} 
                     alt="Guillaume Gay - Fondateur Gecko Design" 
