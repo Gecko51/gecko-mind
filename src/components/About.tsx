@@ -10,7 +10,7 @@ import profileImage from "@/assets/profile-guillaume.webp";
 
 export const About = () => {
   return (
-    <section id="about" className="py-20 bg-gradient-to-b from-muted/20 to-background">
+    <section id="about" className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
