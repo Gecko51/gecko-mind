@@ -64,14 +64,14 @@ export const Services = () => {
                   </div>
                 </div>
                 
-                <p className="text-muted-foreground mb-6 leading-relaxed">
+                <p className="mb-6 leading-relaxed" style={{ color: '#ababab' }}>
                   {service.description}
                 </p>
 
                 <div className="space-y-2">
                   {service.features.map((feature, featureIndex) => <div key={featureIndex} className="flex items-center gap-2">
                       <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
-                      <span className="text-sm text-muted-foreground">{feature}</span>
+                      <span className="text-sm" style={{ color: '#ababab' }}>{feature}</span>
                     </div>)}
                 </div>
 
