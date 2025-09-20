@@ -38,8 +38,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-white mb-10 max-w-3xl mx-auto leading-relaxed">
-            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs. 
-            Libèrez <span className="text-primary font-semibold">60-70% de votre temps</span> pour les tâches à forte valeur ajoutée.
+            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs.
           </p>
 
           {/* CTA Buttons */}
