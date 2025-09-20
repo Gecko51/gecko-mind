@@ -59,21 +59,21 @@ export const Hero = () => {
           <div className="flex flex-col items-center gap-4">
             
             <div className="flex items-center gap-2">
-              <div className="flex -space-x-2">
+              <div className="flex gap-4">
                 <img 
                   src={n8nLogo} 
                   alt="n8n" 
-                  className="w-12 h-12 object-contain relative z-10"
+                  className="w-12 h-12 object-contain"
                 />
                 <img 
                   src={supabaseLogo} 
                   alt="Supabase" 
-                  className="w-12 h-12 object-contain relative z-5"
+                  className="w-12 h-12 object-contain"
                 />
                 <img 
                   src={airtableLogo} 
                   alt="Airtable" 
-                  className="w-12 h-12 object-contain relative z-0"
+                  className="w-12 h-12 object-contain"
                 />
               </div>
               <span className="text-sm font-medium text-foreground">+400 connecteurs disponibles</span>
