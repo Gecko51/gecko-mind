@@ -8,11 +8,11 @@ export const Footer = () => {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <img 
-                src={geckoLogo} 
-                alt="Gecko Design Logo" 
-                className="w-6 h-6"
-              />
+            <img 
+              src={geckoLogo} 
+              alt="Gecko Design Logo" 
+              className="w-4 h-4"
+            />
               <span className="text-lg font-bold text-white">
                 Gecko Design
               </span>
