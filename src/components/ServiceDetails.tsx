@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import arrowIcon from "@/assets/arrow-diagonal.png";
+import arrowIcon from "@/assets/arrow-icon.png";
 const benefits = [{
   icon: Target,
   title: "Réduction des opérations manuelles",
