@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { 
-  User, 
   Linkedin, 
   MessageCircle, 
   Target,
   ArrowRight 
 } from "lucide-react";
+import profileImage from "@/assets/profile-guillaume.webp";
 
 export const About = () => {
   return (
@@ -70,8 +70,12 @@ export const About = () => {
           <div className="space-y-6">
             <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
               <div className="text-center space-y-6">
-                <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6">
-                  <User className="w-10 h-10 text-primary-foreground" />
+                <div className="w-20 h-20 rounded-full overflow-hidden mx-auto mb-6">
+                  <img 
+                    src={profileImage} 
+                    alt="Guillaume Gay - Fondateur Gecko Design" 
+                    className="w-full h-full object-cover"
+                  />
                 </div>
                 
                 <div>
