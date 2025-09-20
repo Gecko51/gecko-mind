@@ -11,7 +11,7 @@ const metrics = [{
   title: "Efficacité opérationnelle",
   description: "Augmentation significative de l'efficacité opérationnelle",
   metric: "+70%",
-  detail: "de tâches manuelles sur votre pipeline"
+  detail: "Moins de tâches manuelles sur votre pipeline"
 }, {
   icon: DollarSign,
   iconImage: topArrowIcon,
