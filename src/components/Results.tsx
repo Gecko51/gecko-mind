@@ -25,7 +25,7 @@ const metrics = [{
   title: "Réactivité client",
   description: "3 fois plus de réactivité sur les interactions client",
   metric: "3x",
-  detail: "Moins de tâches manuelles sur votre pipeline"
+  detail: "Augmentation de la fidélité client et de la satisfaction"
 }];
 export const Results = () => {
   const {
