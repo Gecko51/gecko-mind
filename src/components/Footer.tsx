@@ -25,10 +25,10 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
-          <p className="text-sm text-muted-foreground">© 2025 Gecko Design. Tous droits réservés.</p>
-          <div className="flex items-center gap-6 text-sm text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">Mentions légales</a>
-            <a href="#" className="hover:text-primary transition-colors">Politique de confidentialité</a>
+          <p className="text-sm" style={{ color: '#ababab' }}>© 2025 Gecko Design. Tous droits réservés.</p>
+          <div className="flex items-center gap-6 text-sm">
+            <a href="#" className="hover:text-primary transition-colors" style={{ color: '#ababab' }}>Mentions légales</a>
+            <a href="#" className="hover:text-primary transition-colors" style={{ color: '#ababab' }}>Politique de confidentialité</a>
             </div>
         </div>
       </div>
