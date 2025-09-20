@@ -6,12 +6,12 @@ import miningIcon from "@/assets/mining-icon.png";
 import tickIcon from "@/assets/tick-icon.png";
 const benefits = [{
   icon: Target,
-  iconImage: miningIcon,
+  iconImage: tickIcon,
   title: "Réduction des opérations manuelles",
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
-  iconImage: tickIcon,
+  iconImage: miningIcon,
   title: "Accéleration des cycles",
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
