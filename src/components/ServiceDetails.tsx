@@ -41,7 +41,7 @@ export const ServiceDetails = () => {
             amplifiez l'essentiel.
           </h2>
           
-          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. 
+          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée.  
 Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.</p>
         </div>
 
