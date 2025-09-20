@@ -84,8 +84,8 @@ export const Method = () => {
                   <span className="text-sm font-bold text-primary-foreground">{step.step}</span>
                 </div>
 
-                <div className="w-12 h-12 bg-gradient-secondary rounded-lg flex items-center justify-center mb-4 group-hover:animate-glow">
-                  <IconComponent className="w-6 h-6 text-secondary-foreground" />
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:animate-glow">
+                  <IconComponent className="w-6 h-6 text-primary-foreground" />
                 </div>
                 
                 <h3 className="text-lg font-semibold mb-3 text-foreground leading-tight">{step.title}</h3>
