@@ -9,7 +9,7 @@ import boltIcon from "@/assets/bolt-icon.png";
 const metrics = [
   {
     icon: TrendingUp,
-    iconImage: topArrowIcon,
+    iconImage: boltIcon,
     title: "Efficacité opérationnelle",
     description: "Augmentation significative de l'efficacité opérationnelle",
     metric: "+70%",
@@ -17,7 +17,7 @@ const metrics = [
   },
   {
     icon: DollarSign,
-    iconImage: favouriteIcon,
+    iconImage: topArrowIcon,
     title: "Réduction des coûts",
     description: "Réduction des coûts et optimisation des ressources",
     metric: "ROI",
@@ -25,7 +25,7 @@ const metrics = [
   },
   {
     icon: Clock,
-    iconImage: boltIcon,
+    iconImage: favouriteIcon,
     title: "Réactivité client",
     description: "3 fois plus de réactivité sur les interactions client",
     metric: "3x",
