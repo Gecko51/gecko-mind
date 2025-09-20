@@ -105,20 +105,6 @@ export const Contact = () => {
                   </Button>
                 </div>
               </Card>
-
-
-              {/* Trust badge */}
-              <Card className="p-4 bg-gradient-card border-border/50 backdrop-blur-sm text-center">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <div className="w-6 h-6 bg-gradient-primary rounded-full flex items-center justify-center">
-                    <Zap className="w-3 h-3 text-primary-foreground" />
-                  </div>
-                  <span className="font-medium text-foreground">Approche souveraine</span>
-                </div>
-                <p className="text-xs text-muted-foreground">
-                  Auto-hébergement et conformité RGPD garantis
-                </p>
-              </Card>
             </div>
           </div>
         </div>
