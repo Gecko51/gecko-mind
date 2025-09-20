@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import arrowIcon from "@/assets/arrow-icon.png";
-import miningIcon from "@/assets/mining-icon.png";
+import clockIcon from "@/assets/clock-icon.png";
 import tickIcon from "@/assets/tick-icon.png";
 const benefits = [{
   icon: Target,
@@ -16,7 +16,7 @@ const benefits = [{
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
   icon: Users,
-  iconImage: miningIcon,
+  iconImage: clockIcon,
   title: "Gain de temps précieux",
   description: "Des heures chaque semaine à réinvestir dans la stratégie, l'innovation et la satisfaction client"
 }];
