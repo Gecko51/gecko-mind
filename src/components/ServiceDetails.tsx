@@ -59,7 +59,7 @@ export const ServiceDetails = () => {
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>
-                <p className="text-white leading-relaxed">{benefit.description}</p>
+                <p className="leading-relaxed" style={{ color: '#ababab' }}>{benefit.description}</p>
               </Card>;
         })}
         </div>
