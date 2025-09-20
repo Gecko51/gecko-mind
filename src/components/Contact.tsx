@@ -101,7 +101,7 @@ export const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email direct</h4>
-                    <p className="text-sm text-muted-foreground">Réponse sous 24h</p>
+                    <p style={{ color: '#ababab' }} className="text-sm">Réponse sous 24h</p>
                   </div>
                   <Button variant="outline-glow" size="sm" className="ml-auto">
                     Envoyer
