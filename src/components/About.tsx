@@ -122,14 +122,6 @@ export const About = () => {
               </div>
             </Card>
 
-            {/* Additional info card */}
-            <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm">
-              <h4 className="font-semibold text-foreground mb-3">Approche disciplinée</h4>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Une méthodologie éprouvée d'hyperautomation, alignée avec les meilleures 
-                pratiques de l'écosystème N8N et les standards de gouvernance des données.
-              </p>
-            </Card>
           </div>
         </div>
       </div>
