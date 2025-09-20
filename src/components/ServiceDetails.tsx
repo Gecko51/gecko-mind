@@ -6,17 +6,17 @@ import miningIcon from "@/assets/mining-icon.png";
 import tickIcon from "@/assets/tick-icon.png";
 const benefits = [{
   icon: Target,
-  iconImage: tickIcon,
+  iconImage: arrowIcon,
   title: "Réduction des opérations manuelles",
   description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
 }, {
   icon: Zap,
-  iconImage: arrowIcon,
+  iconImage: tickIcon,
   title: "Accéleration des cycles",
   description: "Prospection intelligente, synchronisation de données entre vos outils, animation des réseaux sociaux"
 }, {
   icon: Users,
-  iconImage: arrowIcon,
+  iconImage: miningIcon,
   title: "Gain de temps précieux",
   description: "Des heures chaque semaine à réinvestir dans la stratégie, l'innovation et la satisfaction client"
 }];
