@@ -49,7 +49,7 @@ export const Mission = () => {
               <img src={checkSecurityIcon} alt="Check security icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Respecter les règles</h3>
-            <p className="text-muted-foreground">Conformité RGPD et DPA garantie</p>
+            <p style={{ color: '#ababab' }}>Conformité RGPD et DPA garantie</p>
           </div>
         </div>
       </div>
