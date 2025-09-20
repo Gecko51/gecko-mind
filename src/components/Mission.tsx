@@ -18,9 +18,9 @@ export const Mission = () => {
         >
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Transformer vos processus
+              Libérez le potentiel caché
             </span>{" "}
-            <span className="text-foreground">chronophages</span>
+            <span className="text-foreground">de votre entreprise</span>
           </h2>
           <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#919aa6' }}>
             J'aide les entreprises à transformer leurs processus chronophages en workflows autonomes qui 
