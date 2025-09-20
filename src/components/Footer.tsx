@@ -1,10 +1,8 @@
 import geckoLogo from "@/assets/gecko-logo.png";
 export const Footer = () => {
   return <footer className="bg-card/50 backdrop-blur-sm border-t border-border">
-      <div className="container mx-auto px-6 pt-4 pb-8">
-        
-
-        <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="max-w-4xl mx-auto px-4 py-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm transition-colors" style={{
           color: '#ababab',
           cursor: 'default'
