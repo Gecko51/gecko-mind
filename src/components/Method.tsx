@@ -1,28 +1,31 @@
 import { Card } from "@/components/ui/card";
-import { SearchCheck, Rocket, GraduationCap, TrendingUp } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import targetIcon from "@/assets/target-icon.png";
+import cubeIcon from "@/assets/cube-icon.png";
+import chevronIcon from "@/assets/chevron-icon.png";
+import exchangeIcon from "@/assets/exchange-icon.png";
 
 const steps = [
   {
-    icon: SearchCheck,
+    icon: targetIcon,
     title: "Audit de vos process & data",
     description: "pour identifier les points de douleur",
     step: "01"
   },
   {
-    icon: Rocket,
+    icon: cubeIcon,
     title: "Prototype fonctionnel sous 10 jours",
     description: "pour que vous constatiez les bénéfices rapidement",
     step: "02"
   },
   {
-    icon: GraduationCap,
+    icon: chevronIcon,
     title: "Déploiement progressif + micro-formations",
     description: "pour une adoption en douceur",
     step: "03"
   },
   {
-    icon: TrendingUp,
+    icon: exchangeIcon,
     title: "Amélioration continue",
     description: "basée sur vos KPI et retours, pour une optimisation constante",
     step: "04"
@@ -70,7 +73,6 @@ export const Method = () => {
           }`}
         >
           {steps.map((step, index) => {
-            const IconComponent = step.icon;
             return (
               <Card 
                 key={index} 
@@ -84,8 +86,8 @@ export const Method = () => {
                   <span className="text-sm font-bold text-primary-foreground">{step.step}</span>
                 </div>
 
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4 group-hover:animate-glow">
-                  <IconComponent className="w-6 h-6 text-primary-foreground" />
+                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4">
+                  <img src={step.icon} alt={step.title} className="w-6 h-6" />
                 </div>
                 
                 <h3 className="text-lg font-semibold mb-3 text-foreground leading-tight">{step.title}</h3>
