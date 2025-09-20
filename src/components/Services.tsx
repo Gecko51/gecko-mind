@@ -57,7 +57,7 @@ export const Services = () => {
           }}>
                 <div className="flex items-center gap-4 mb-6">
                   <div className="w-12 h-12 flex items-center justify-center">
-                    <img src={service.iconImage} alt={service.title} className="w-10 h-10 opacity-80" />
+                    <img src={service.iconImage} alt={service.title} className="w-12 h-12 opacity-80" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-2 text-foreground">{service.title}</h3>
