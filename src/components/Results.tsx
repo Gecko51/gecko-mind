@@ -42,7 +42,7 @@ export const Results = () => {
     ref: ctaRef,
     isVisible: ctaVisible
   } = useScrollAnimation();
-  return <section className="py-20 bg-black">
+  return <section className="pt-20 pb-10 bg-black">
       <div className="container mx-auto px-6">
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-6">
