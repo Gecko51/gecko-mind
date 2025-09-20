@@ -34,7 +34,7 @@ export const Method = () => {
   const { ref: stepsRef, isVisible: stepsVisible } = useScrollAnimation({ threshold: 0.2 });
 
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-background">
+    <section className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div 
           ref={titleRef}
