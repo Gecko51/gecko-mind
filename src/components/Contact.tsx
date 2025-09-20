@@ -69,15 +69,15 @@ export const Contact = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">Audit de vos processus métier</span>
+                    <span style={{ color: '#ababab' }}>Audit de vos processus métier</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">Identification des gains de productivité</span>
+                    <span style={{ color: '#ababab' }}>Identification des gains de productivité</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
-                    <span className="text-muted-foreground">Roadmap d'automatisation personnalisée</span>
+                    <span style={{ color: '#ababab' }}>Roadmap d'automatisation personnalisée</span>
                   </div>
                 </div>
 
