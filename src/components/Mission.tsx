@@ -41,7 +41,7 @@ export const Mission = () => {
               <img src={clockIcon} alt="Clock icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libérer du temps</h3>
-            <p className="text-muted-foreground">Plus de temps pour la stratégie et l'innovation</p>
+            <p style={{ color: '#ababab' }}>Plus de temps pour la stratégie et l'innovation</p>
           </div>
 
           <div className="text-center group">
