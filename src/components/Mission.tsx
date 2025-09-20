@@ -23,10 +23,7 @@ export const Mission = () => {
             <span className="text-foreground">de votre entreprise</span>
           </h2>
           <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#919aa6' }}>
-            J'aide les entreprises à transformer leurs processus chronophages en workflows autonomes qui 
-            <span className="font-medium"> génèrent du chiffre</span>, 
-            <span className="font-medium"> libèrent du temps</span> et 
-            <span className="font-medium"> respectent les réglementations</span> (RGPD, DPA).
+            Transformez vos tâches répétitives en avantage concurrentiel. J'automatise vos processus pour multiplier votre productivité tout en garantissant une conformité totale RGPD et DPA.
           </p>
         </div>
 
