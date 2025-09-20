@@ -92,9 +92,6 @@ export const Services = () => {
         <div className="text-center">
           <Card className="inline-block p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
             <div className="flex items-center gap-4 mb-4">
-              <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center">
-                <Zap className="w-6 h-6 text-primary-foreground animate-glow" />
-              </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground">Prêt à automatiser ?</h3>
                 <p className="text-muted-foreground">+400 connecteurs disponibles avec N8N</p>
