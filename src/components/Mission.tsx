@@ -22,9 +22,7 @@ export const Mission = () => {
             </span>{" "}
             <span className="text-foreground">de votre entreprise</span>
           </h2>
-          <p className="text-lg max-w-4xl mx-auto leading-relaxed text-white">
-            Transformez vos tâches répétitives en avantage concurrentiel. J'automatise vos processus pour multiplier votre productivité tout en garantissant une conformité totale RGPD et DPA.
-          </p>
+          <p className="text-lg max-w-4xl mx-auto leading-relaxed text-white">Transformez vos tâches répétitives en avantage concurrentiel en automatisant vos processus pour multiplier votre productivité tout en garantissant une conformité totale.</p>
         </div>
 
         <div ref={contentRef} className={`grid md:grid-cols-3 gap-8 transition-all duration-1000 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
@@ -33,7 +31,9 @@ export const Mission = () => {
               <img src={sendMoneyIcon} alt="Send money icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Génèrer du chiffre</h3>
-            <p style={{ color: '#ababab' }}>Workflows qui contribuent directement à vos revenus</p>
+            <p style={{
+            color: '#ababab'
+          }}>Workflows qui contribuent directement à vos revenus</p>
           </div>
 
           <div className="text-center group">
@@ -41,7 +41,9 @@ export const Mission = () => {
               <img src={clockIcon} alt="Clock icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libérer du temps</h3>
-            <p style={{ color: '#ababab' }}>Plus de temps pour la stratégie et l'innovation</p>
+            <p style={{
+            color: '#ababab'
+          }}>Plus de temps pour la stratégie et l'innovation</p>
           </div>
 
           <div className="text-center group">
@@ -49,7 +51,9 @@ export const Mission = () => {
               <img src={checkSecurityIcon} alt="Check security icon" className="w-16 h-16" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Respecter les règles</h3>
-            <p style={{ color: '#ababab' }}>Conformité RGPD et DPA garantie</p>
+            <p style={{
+            color: '#ababab'
+          }}>Conformité RGPD et DPA garantie</p>
           </div>
         </div>
       </div>
