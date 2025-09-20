@@ -69,7 +69,7 @@ export const Services = () => {
           </p>
           
           {/* Social proof */}
-          <div className="flex flex-col items-center gap-4 mt-8">
+          <div className="flex flex-col items-center gap-4 mt-12">
             <div className="flex items-center gap-2">
               <div className="flex gap-4">
                 <img 
