@@ -61,21 +61,21 @@ export const Hero = () => {
             
             <div className="flex items-center gap-2">
               <div className="flex -space-x-2">
-                <div className="w-8 h-8 bg-white rounded-full border-2 border-background flex items-center justify-center p-1">
+                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1">
                   <img 
                     src={supabaseLogo} 
                     alt="Supabase" 
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <div className="w-8 h-8 bg-white rounded-full border-2 border-background flex items-center justify-center p-1">
+                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1">
                   <img 
                     src={n8nLogo} 
                     alt="n8n" 
                     className="w-full h-full object-contain"
                   />
                 </div>
-                <div className="w-8 h-8 bg-white rounded-full border-2 border-background flex items-center justify-center p-1">
+                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1">
                   <img 
                     src={airtableLogo} 
                     alt="Airtable" 
