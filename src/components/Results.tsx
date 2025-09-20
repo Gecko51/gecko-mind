@@ -55,7 +55,7 @@ export const Results = () => {
             concrets et mesurables
           </h2>
           
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">
             L'automatisation n'est pas qu'une promesse, c'est une réalité mesurable qui transforme 
             votre entreprise avec des impacts quantifiables dès les premières semaines.
           </p>
