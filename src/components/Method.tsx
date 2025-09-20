@@ -86,8 +86,8 @@ export const Method = () => {
                   <span className="text-sm font-bold text-primary-foreground">{step.step}</span>
                 </div>
 
-                <div className="w-12 h-12 bg-gradient-primary rounded-lg flex items-center justify-center mb-4">
-                  <img src={step.icon} alt={step.title} className="w-6 h-6" />
+                <div className="flex items-center justify-center mb-4">
+                  <img src={step.icon} alt={step.title} className="w-12 h-12" />
                 </div>
                 
                 <h3 className="text-lg font-semibold mb-3 text-foreground leading-tight">{step.title}</h3>
