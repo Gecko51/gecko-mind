@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Zap, Target, Users, BarChart3 } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import arrowIcon from "@/assets/arrow-icon.png";
+import miningIcon from "@/assets/mining-icon.png";
 const benefits = [{
   icon: Target,
   title: "Réduction des opérations manuelles",
@@ -50,7 +50,7 @@ export const ServiceDetails = () => {
           const IconComponent = benefit.icon;
           return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
-                  <img src={arrowIcon} alt="Arrow icon" className="w-14 h-14" />
+                  <img src={miningIcon} alt="Mining icon" className="w-14 h-14" />
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>
