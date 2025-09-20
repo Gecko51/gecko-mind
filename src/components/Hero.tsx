@@ -60,27 +60,21 @@ export const Hero = () => {
             
             <div className="flex items-center gap-2">
               <div className="flex -space-x-2">
-                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1 relative z-10">
-                  <img 
-                    src={n8nLogo} 
-                    alt="n8n" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1">
-                  <img 
-                    src={supabaseLogo} 
-                    alt="Supabase" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <div className="w-8 h-8 bg-black rounded-full border-2 border-background flex items-center justify-center p-1 relative z-0">
-                  <img 
-                    src={airtableLogo} 
-                    alt="Airtable" 
-                    className="w-full h-full object-contain"
-                  />
-                </div>
+                <img 
+                  src={n8nLogo} 
+                  alt="n8n" 
+                  className="w-12 h-12 object-contain relative z-10"
+                />
+                <img 
+                  src={supabaseLogo} 
+                  alt="Supabase" 
+                  className="w-12 h-12 object-contain relative z-5"
+                />
+                <img 
+                  src={airtableLogo} 
+                  alt="Airtable" 
+                  className="w-12 h-12 object-contain relative z-0"
+                />
               </div>
               <span className="text-sm font-medium text-foreground">+400 connecteurs disponibles</span>
             </div>
