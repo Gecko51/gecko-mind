@@ -44,31 +44,7 @@ export const Services = () => {
   } = useScrollAnimation();
   return <section id="services" className="py-20 bg-black">
       <div className="container mx-auto px-6">
-        <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Une expertise
-            </span>{" "}
-            au service de votre productivité
-          </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Des solutions d'automatisation pensées pour libérer votre équipe des tâches répétitives 
-            et la recentrer sur les activités à forte valeur ajoutée.
-          </p>
-          
-          {/* Social proof */}
-          <div className="flex flex-col items-center gap-4 mt-12">
-            <div className="flex items-center gap-2">
-              <div className="flex gap-4">
-                <img src={n8nLogo} alt="n8n" className="w-7 h-7 object-contain" />
-                <img src={supabaseLogo} alt="Supabase" className="w-7 h-7 object-contain" />
-                <img src={airtableLogo} alt="Airtable" className="w-7 h-7 object-contain" />
-                <img src={mcpLogo} alt="MCP" className="w-7 h-7 object-contain" />
-              </div>
-              <span className="text-lg font-medium text-foreground drop-shadow-lg">+400 connecteurs disponibles</span>
-            </div>
-          </div>
-        </div>
+        
 
         <div ref={cardsRef} className={`grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           {services.map((service, index) => {
