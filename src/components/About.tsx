@@ -29,7 +29,7 @@ export const About = () => {
             <div>
               <h2 className="text-3xl md:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Guillaume Gay
+                  Guillaume
                 </span>
                 <br />
                 Architecte des automatisations
