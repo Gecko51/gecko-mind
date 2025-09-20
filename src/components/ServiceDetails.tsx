@@ -42,8 +42,7 @@ export const ServiceDetails = () => {
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Je conçois et déploie des systèmes d'automatisation sur-mesure qui prennent en charge vos processus 
-            les plus chronophages. Mon objectif est de transformer les tâches répétitives en un avantage stratégique.
+            Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.
           </p>
         </div>
 
