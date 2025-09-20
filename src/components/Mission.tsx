@@ -22,7 +22,7 @@ export const Mission = () => {
             <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
               <img src={sendMoneyIcon} alt="Send money icon" className="w-15 h-15" />
             </div>
-            <h3 className="text-xl font-semibold mb-2 text-foreground">Génèrer du chiffre</h3>
+            <h3 className="text-xl font-semibold mb-2 text-foreground">Générer du chiffre</h3>
             <p style={{
             color: '#ababab'
           }}>Workflows qui contribuent directement à vos revenus</p>
