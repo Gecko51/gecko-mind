@@ -47,7 +47,6 @@ export const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button variant="hero" size="lg" className="group">
-              <Zap className="w-5 h-5 group-hover:animate-float" />
               Découvrir nos automatisations
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
