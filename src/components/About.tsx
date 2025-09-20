@@ -31,6 +31,10 @@ export const About = () => {
                 Fondateur de Gecko Design, je me positionne comme architecte et stratège 
                 des automatisations déployées, avec une expertise reconnue sur les Agents IA 
                 et les solutions d'intelligence artificielle sur-mesure.
+                <br /><br />
+                Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés. 
+                Passionné par l'innovation utile, je conçois des solutions concrètes qui libèrent du temps, 
+                optimisent le suivi commercial, et transforment votre quotidien opérationnel.
               </p>
             </div>
 
@@ -39,12 +43,6 @@ export const About = () => {
                 
                 <div>
                   
-                  <p className="text-muted-foreground">
-                    Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés.
-                    <br /><br />
-                    Passionné par l'innovation utile, je conçois des solutions concrètes qui libèrent du temps, 
-                    optimisent le suivi commercial et transforment votre quotidien opérationnel.
-                  </p>
                 </div>
               </div>
 
