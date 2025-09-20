@@ -38,7 +38,7 @@ export const About = () => {
               <div className="flex items-start gap-4">
                 
                 <div>
-                  <h3 className="font-semibold text-foreground mb-2">Expertise opérationnelle</h3>
+                  
                   <p className="text-muted-foreground">
                     Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés.
                     <br /><br />
