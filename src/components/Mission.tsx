@@ -30,7 +30,7 @@ export const Mission = () => {
 
           <div className="text-center group">
             <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <img src={clockIcon} alt="Clock icon" className="w-12 h-12" />
+              <img src={clockIcon} alt="Clock icon" className="w-15 h-15" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libérer du temps</h3>
             <p style={{
