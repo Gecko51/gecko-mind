@@ -15,15 +15,7 @@ export const Mission = () => {
   });
   return <section className="py-20 bg-gradient-to-b from-background to-black/20">
       <div className="container mx-auto px-6">
-        <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Libérez le potentiel caché
-            </span>{" "}
-            <span className="text-foreground">de votre entreprise</span>
-          </h2>
-          <p className="text-lg max-w-4xl mx-auto leading-relaxed text-white">Transformez vos tâches répétitives en avantage concurrentiel en automatisant vos processus pour multiplier votre productivité tout en garantissant une conformité totale.</p>
-        </div>
+        
 
         <div ref={contentRef} className={`grid md:grid-cols-3 gap-8 transition-all duration-1000 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           <div className="text-center group">

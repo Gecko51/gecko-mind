@@ -47,19 +47,23 @@ export const ServiceDetails = () => {
             amplifiez l'essentiel.
           </h2>
           
-          <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#ababab' }}>Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. <br />Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.</p>
+          <p style={{
+          color: '#ababab'
+        }} className="text-lg max-w-4xl mx-auto leading-relaxed text-white">Vos équipes perdent jusqu'à 40% de leur temps sur des tâches sans valeur ajoutée. <br />Je transforme ces heures perdues en opportunités de croissance avec des solutions d'automatisation qui s'adaptent parfaitement à votre métier.</p>
         </div>
 
         <div ref={cardsRef} className={`grid md:grid-cols-3 gap-8 mb-16 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           {benefits.map((benefit, index) => {
           const IconComponent = benefit.icon;
-           return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm hover-scale">
+          return <Card key={index} className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm hover-scale">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
                   <img src={benefit.iconImage} alt="Arrow icon" className="w-14 h-14" />
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>
-                <p className="leading-relaxed" style={{ color: '#ababab' }}>{benefit.description}</p>
+                <p className="leading-relaxed" style={{
+              color: '#ababab'
+            }}>{benefit.description}</p>
               </Card>;
         })}
         </div>
