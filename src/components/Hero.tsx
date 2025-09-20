@@ -46,9 +46,8 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="lg" className="group">
+            <Button variant="hero" size="lg">
               Découvrir les agents IA
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="outline-glow" size="lg">
               Contactez Guillaume
