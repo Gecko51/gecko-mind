@@ -1,7 +1,7 @@
 import geckoLogo from "@/assets/gecko-logo.png";
 export const Footer = () => {
   return <footer className="bg-card/50 backdrop-blur-sm border-t border-border">
-      <div className="container mx-auto px-6 py-12">
+      <div className="container mx-auto px-6 py-8">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
