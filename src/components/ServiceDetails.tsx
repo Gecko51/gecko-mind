@@ -36,9 +36,9 @@ export const ServiceDetails = () => {
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              L'automatisation
+              Automatisez l'invisible,
             </span>{" "}
-            qui libère votre potentiel
+            amplifiez l'essentiel.
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
