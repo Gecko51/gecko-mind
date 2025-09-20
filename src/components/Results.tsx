@@ -8,7 +8,7 @@ const metrics = [
     icon: TrendingUp,
     title: "Efficacité opérationnelle",
     description: "Augmentation significative de l'efficacité opérationnelle",
-    metric: "-70%",
+    metric: "+70%",
     detail: "de tâches manuelles sur votre pipeline"
   },
   {
