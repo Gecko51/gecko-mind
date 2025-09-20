@@ -1,7 +1,7 @@
 import geckoLogo from "@/assets/gecko-logo.png";
 export const Footer = () => {
   return <footer className="bg-card/50 backdrop-blur-sm border-t border-border">
-      <div className="container mx-auto px-6 py-8">
+      <div className="container mx-auto px-6 pt-4 pb-8">
         
 
         <div className="border-t border-border mt-8 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
