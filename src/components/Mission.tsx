@@ -22,7 +22,7 @@ export const Mission = () => {
             </span>{" "}
             <span className="text-foreground">chronophages</span>
           </h2>
-          <p className="text-lg text-muted-foreground max-w-4xl mx-auto leading-relaxed">
+          <p className="text-lg max-w-4xl mx-auto leading-relaxed" style={{ color: '#919aa6' }}>
             J'aide les entreprises à transformer leurs processus chronophages en workflows autonomes qui 
             <span className="text-primary font-medium"> génèrent du chiffre</span>, 
             <span className="text-secondary font-medium"> libèrent du temps</span> et 
