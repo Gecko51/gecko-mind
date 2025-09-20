@@ -49,8 +49,10 @@ export const About = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-2">Expertise opérationnelle</h3>
                   <p className="text-muted-foreground">
-                    Publication régulière de contenus professionnels sur LinkedIn autour de l'IA, 
-                    de l'automatisation et des usages concrets d'outils comme N8N.
+                    Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés.
+                    <br /><br />
+                    Passionné par l'innovation utile, je conçois des solutions concrètes qui libèrent du temps, 
+                    optimisent le suivi commercial et transforment votre quotidien opérationnel.
                   </p>
                 </div>
               </div>
