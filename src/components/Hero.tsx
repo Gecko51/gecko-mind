@@ -76,7 +76,7 @@ export const Hero = () => {
                   className="w-12 h-12 object-contain"
                 />
               </div>
-              <span className="text-sm font-medium text-foreground">+400 connecteurs disponibles</span>
+              <span className="text-lg font-medium text-foreground drop-shadow-lg">+400 connecteurs disponibles</span>
             </div>
           </div>
         </div>
