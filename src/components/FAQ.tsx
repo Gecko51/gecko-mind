@@ -37,7 +37,7 @@ export const FAQ = () => {
           <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent mb-6">
             Questions Fréquentes
           </h2>
-          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#a0a0a0' }}>
             Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
           </p>
         </div>
