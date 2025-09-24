@@ -39,7 +39,7 @@ export const FAQ = () => {
               Questions Fréquentes
             </span>
           </h2>
-          <p className="text-lg max-w-2xl mx-auto" style={{ color: '#a0a0a0' }}>
+          <p className="text-lg max-w-2xl mx-auto text-foreground">
             Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
           </p>
         </div>
