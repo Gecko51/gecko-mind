@@ -55,7 +55,7 @@ export const ServiceDetails = () => {
           const IconComponent = benefit.icon;
           return <Card key={index} className="relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2">
                 <div className="w-16 h-16 flex items-center justify-center mb-6">
-                  <img src={benefit.iconImage} alt="Arrow icon" className="w-12 h-12" />
+                  <img src={benefit.iconImage} alt="Arrow icon" className="w-12 h-12 object-contain" />
                 </div>
                 
                 <h3 className="text-xl font-semibold mb-4 text-foreground">{benefit.title}</h3>

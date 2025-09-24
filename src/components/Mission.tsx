@@ -20,7 +20,7 @@ export const Mission = () => {
         <div ref={contentRef} className={`grid md:grid-cols-3 gap-8 transition-all duration-1000 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           <div className="text-center group">
             <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <img src={sendMoneyIcon} alt="Send money icon" className="w-15 h-15" />
+              <img src={sendMoneyIcon} alt="Send money icon" className="w-15 h-15 object-contain" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Générer du chiffre</h3>
             <p style={{
@@ -30,7 +30,7 @@ export const Mission = () => {
 
           <div className="text-center group">
             <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <img src={clockIcon} alt="Clock icon" className="w-15 h-15" />
+              <img src={clockIcon} alt="Clock icon" className="w-15 h-15 object-contain" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Libérer du temps</h3>
             <p style={{
@@ -40,7 +40,7 @@ export const Mission = () => {
 
           <div className="text-center group">
             <div className="w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <img src={checkSecurityIcon} alt="Check security icon" className="w-12 h-12" />
+              <img src={checkSecurityIcon} alt="Check security icon" className="w-12 h-12 object-contain" />
             </div>
             <h3 className="text-xl font-semibold mb-2 text-foreground">Respecter les règles</h3>
             <p style={{

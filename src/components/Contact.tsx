@@ -39,7 +39,7 @@ export const Contact = () => {
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 flex items-center justify-center">
-                    <img src={clipboardIcon} alt="Planifier" className="w-12 h-12 opacity-80" />
+                    <img src={clipboardIcon} alt="Planifier" className="w-12 h-12 opacity-80 object-contain" />
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-foreground">Planifier un rendez-vous</h3>
@@ -89,7 +89,7 @@ export const Contact = () => {
               <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <img src={emailIcon} alt="Email" className="w-10 h-10 opacity-80" />
+                    <img src={emailIcon} alt="Email" className="w-10 h-10 opacity-80 object-contain" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Email direct</h4>
@@ -106,7 +106,7 @@ export const Contact = () => {
               <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 flex items-center justify-center">
-                    <img src={commentIcon} alt="Message" className="w-10 h-10 opacity-80" />
+                    <img src={commentIcon} alt="Message" className="w-10 h-10 opacity-80 object-contain" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">LinkedIn</h4>
