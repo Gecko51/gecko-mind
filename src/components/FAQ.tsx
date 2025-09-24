@@ -68,7 +68,7 @@ export const FAQ = () => {
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground leading-relaxed pb-6">
-                  <div className="whitespace-pre-line">
+                  <div className="whitespace-pre-line text-lg">
                     {faq.answer}
                   </div>
                 </AccordionContent>
