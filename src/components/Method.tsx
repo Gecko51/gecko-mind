@@ -50,9 +50,7 @@ export const Method = () => {
             méthodique et éprouvée
           </h2>
           
-          <p style={{
-          color: '#ababab'
-        }} className="text-lg max-w-3xl mx-auto leading-relaxed text-white">
+          <p className="text-lg max-w-3xl mx-auto leading-relaxed text-foreground">
             Un processus en 4 étapes pour garantir le succès de votre transformation digitale, 
             de l'audit initial à l'optimisation continue.
           </p>
