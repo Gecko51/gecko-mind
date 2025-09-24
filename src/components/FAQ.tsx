@@ -34,8 +34,10 @@ export const FAQ = () => {
   return <section className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent mb-6">
-            Questions Fréquentes
+          <h2 className="text-3xl md:text-5xl font-bold mb-6">
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              Questions Fréquentes
+            </span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto" style={{ color: '#a0a0a0' }}>
             Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
