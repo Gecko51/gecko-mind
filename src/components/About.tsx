@@ -32,7 +32,7 @@ export const About = () => {
                 des automatisations déployées, avec une expertise reconnue sur les Agents IA 
                 et les solutions d'intelligence artificielle sur-mesure.
                 <br /><br />
-                Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés. <br>
+                Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés. <br></br>
                 Passionné par l'innovation utile, je conçois des solutions concrètes qui libèrent du temps, 
                 optimisent le suivi commercial, et transforment votre quotidien opérationnel.
               </p>
