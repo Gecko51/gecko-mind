@@ -81,7 +81,7 @@ export const Contact = () => {
                   className="w-full group"
                   onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
                 >
-                  Réserver un créneau
+                  Demander une démonstration
                 </Button>
               </div>
 
