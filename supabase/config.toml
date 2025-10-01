@@ -1,0 +1,2 @@
+[functions.chat-webhook]
+verify_jwt = false
