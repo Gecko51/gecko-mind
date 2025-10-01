@@ -27,7 +27,9 @@ export const About = () => {
                 <br />
                 Architecte des automatisations
               </h2>
-              <p className="text-lg leading-relaxed" style={{ color: '#ababab' }}>
+              <p className="text-lg leading-relaxed" style={{
+              color: '#ababab'
+            }}>
                 Fondateur de Gecko Design, je me positionne comme architecte et stratège 
                 des automatisations déployées, avec une expertise reconnue sur les Agents IA 
                 et les solutions d'intelligence artificielle sur-mesure.
@@ -51,12 +53,7 @@ export const About = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                variant="outline-glow" 
-                size="lg" 
-                className="group"
-                onClick={() => window.open('https://www.linkedin.com/in/gay-guillaume/', '_blank')}
-              >
+              <Button variant="outline-glow" size="lg" className="group" onClick={() => window.open('https://www.linkedin.com/in/gay-guillaume/', '_blank')}>
                 <Linkedin className="w-5 h-5" />
                 Suivre sur LinkedIn
               </Button>
@@ -76,24 +73,7 @@ export const About = () => {
                   <p className="text-primary font-medium">Fondateur & Architecte IA</p>
                 </div>
 
-                <div className="grid grid-cols-2 gap-6 pt-6 border-t border-border/50">
-                  <div className="text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                      60-70%
-                    </div>
-                    <div className="text-sm text-muted-foreground">
-                      Réduction des tâches répétitives
-                    </div>
-                  </div>
-                  <div className="text-center">
-                    <div className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                      400+
-                    </div>
-                    <div className="text-sm text-muted-foreground">
-                      Connecteurs N8N
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </Card>
 
