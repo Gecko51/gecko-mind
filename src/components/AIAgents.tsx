@@ -80,7 +80,7 @@ export const AIAgents = () => {
 
         <div
           ref={cardsRef}
-          className={`grid md:grid-cols-3 gap-8 transition-all duration-1000 ${
+          className={`grid lg:grid-cols-3 gap-8 transition-all duration-1000 ${
             cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
           }`}
         >
