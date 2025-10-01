@@ -23,7 +23,7 @@ const agents = [
     color: "text-purple-400",
     tasks: [
       "Recherche ciblée de prospects",
-      "Recherche psychographique",
+      "Analyse psychographique",
       "Script de vente personnalisé",
       "Anticipation des objections"
     ]
