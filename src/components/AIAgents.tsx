@@ -12,7 +12,8 @@ const agents = [
       "Gestion des emails",
       "Onboarding et mail de bienvenue",
       "Synchronisation du CRM et de l'agenda",
-      "Gestion des rappels et relances"
+      "Gestion des rappels et relances",
+      "Chatbot conversationnel 24/7"
     ]
   },
   {
