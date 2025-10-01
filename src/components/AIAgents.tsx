@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Bot, Users, TrendingUp } from "lucide-react";
+import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const agents = [
@@ -7,19 +7,26 @@ const agents = [
     name: "Clark",
     icon: Users,
     description: "Agent IA chargé de la relation client",
-    color: "text-blue-400"
+    color: "text-blue-400",
+    tasks: []
   },
   {
     name: "Lili",
     icon: TrendingUp,
     description: "Agent IA expert en prospection et en psychologie de vente",
-    color: "text-purple-400"
+    color: "text-purple-400",
+    tasks: []
   },
   {
     name: "Vénus",
     icon: Bot,
     description: "Agent IA dédié à la création de contenu et à l'analyse des tendances",
-    color: "text-pink-400"
+    color: "text-pink-400",
+    tasks: [
+      "Gestion complète du calendrier éditorial",
+      "Création de contenu LinkedIn automatisé",
+      "Génération de visuels de haute qualité"
+    ]
   }
 ];
 
@@ -76,9 +83,20 @@ export const AIAgents = () => {
                   
                   <h3 className="text-2xl font-bold mb-4 text-white">{agent.name}</h3>
                   
-                  <p className="text-white leading-relaxed">
+                  <p className="text-white leading-relaxed mb-6">
                     {agent.description}
                   </p>
+
+                  {agent.tasks.length > 0 && (
+                    <div className="space-y-2 mt-4 w-full">
+                      {agent.tasks.map((task, taskIndex) => (
+                        <div key={taskIndex} className="flex items-center gap-2 text-left">
+                          <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
+                          <span className="text-sm text-white/80">{task}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
