@@ -3,6 +3,7 @@ import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import clarkImage from "@/assets/portrait_agent_clark.png";
 import liliImage from "@/assets/portrait_agent_lili.png";
+import venusImage from "@/assets/portrait_agent_venus.png";
 
 const agents = [
   {
@@ -35,6 +36,7 @@ const agents = [
   {
     name: "Vénus",
     icon: Bot,
+    image: venusImage,
     description: "Agent IA dédié à la création de contenu et à l'analyse des tendances",
     color: "text-pink-400",
     tasks: [
