@@ -46,7 +46,13 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button variant="hero" size="lg">
+            <Button 
+              variant="hero" 
+              size="lg"
+              onClick={() => {
+                document.getElementById('ai-agents')?.scrollIntoView({ behavior: 'smooth' });
+              }}
+            >
               Découvrir les agents IA
             </Button>
             <Button variant="outline-glow" size="lg">
