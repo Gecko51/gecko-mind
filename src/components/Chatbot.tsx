@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 interface Message {
   id: string;
@@ -27,9 +28,6 @@ export const Chatbot = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
-  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-  const EDGE_FUNCTION_URL = `${SUPABASE_URL}/functions/v1/chat-webhook`;
-
   useEffect(() => {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
@@ -51,22 +49,16 @@ export const Chatbot = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(EDGE_FUNCTION_URL, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
+      const { data, error } = await supabase.functions.invoke('chat-webhook', {
+        body: {
           message: text.trim(),
           timestamp: new Date().toISOString(),
-        }),
+        },
       });
 
-      if (!response.ok) {
-        throw new Error('Erreur lors de l\'envoi du message');
+      if (error) {
+        throw new Error(error.message || 'Erreur lors de l\'envoi du message');
       }
-
-      const data = await response.json();
       
       const botMessage: Message = {
         id: (Date.now() + 1).toString(),
