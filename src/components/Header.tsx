@@ -16,7 +16,12 @@ export const Header = () => {
           
           
           
-          <Button variant="outline" size="default" className="px-4 py-2.5 bg-transparent border-2 border-primary text-primary hover:bg-gradient-primary hover:text-primary-foreground transition-all duration-300">
+          <Button 
+            variant="outline" 
+            size="default" 
+            className="px-4 py-2.5 bg-transparent border-2 border-primary text-primary hover:bg-gradient-primary hover:text-primary-foreground transition-all duration-300"
+            onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
+          >
             Réserver un appel
           </Button>
         </div>
