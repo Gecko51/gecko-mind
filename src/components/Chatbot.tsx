@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useToast } from '@/hooks/use-toast';
-import { supabase } from '@/integrations/supabase/client';
+import { supabase, isSupabaseConfigured } from '@/integrations/supabase/client';
 
 interface Message {
   id: string;
@@ -49,6 +49,10 @@ export const Chatbot = () => {
     setIsLoading(true);
 
     try {
+      if (!isSupabaseConfigured || !supabase) {
+        throw new Error('Lovable Cloud n\'est pas encore complètement provisionné. Veuillez patienter quelques instants et réessayer.');
+      }
+
       const { data, error } = await supabase.functions.invoke('chat-webhook', {
         body: {
           message: text.trim(),
