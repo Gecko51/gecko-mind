@@ -33,6 +33,7 @@ const agents = [
     description: "Agent IA dédié à la création de contenu et à l'analyse des tendances",
     color: "text-pink-400",
     tasks: [
+      "Recherche des tendances et hooks viraux",
       "Gestion complète du calendrier éditorial",
       "Création de contenu LinkedIn automatisé",
       "Génération de visuels de haute qualité"
