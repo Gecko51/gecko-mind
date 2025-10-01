@@ -51,7 +51,12 @@ export const About = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="outline-glow" size="lg" className="group">
+              <Button 
+                variant="outline-glow" 
+                size="lg" 
+                className="group"
+                onClick={() => window.open('https://www.linkedin.com/in/gay-guillaume/', '_blank')}
+              >
                 <Linkedin className="w-5 h-5" />
                 Suivre sur LinkedIn
               </Button>
