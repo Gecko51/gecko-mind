@@ -15,7 +15,7 @@ serve(async (req) => {
     const { message, timestamp } = await req.json();
     console.log('Received message:', message, 'at', timestamp);
 
-    const WEBHOOK_URL = 'https://n8n.srv810123.hstgr.cloud/webhook/5ce53611-5760-41e5-aadd-c9704d4b634a';
+    const WEBHOOK_URL = 'https://n8n.srv810123.hstgr.cloud/webhook-test/5ce53611-5760-41e5-aadd-c9704d4b634a';
 
     // Call n8n webhook
     const response = await fetch(WEBHOOK_URL, {
