@@ -15,7 +15,11 @@ const agents = [
     icon: TrendingUp,
     description: "Agent IA expert en prospection et en psychologie de vente",
     color: "text-purple-400",
-    tasks: []
+    tasks: [
+      "Recherche psychographique",
+      "Script de vente personnalisé",
+      "Anticipation des objections"
+    ]
   },
   {
     name: "Vénus",
