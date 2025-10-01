@@ -33,9 +33,9 @@ export const Contact = () => {
             </p>
           </div>
 
-          <div ref={cardsRef} className={`grid md:grid-cols-2 gap-8 transition-all duration-700 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <div ref={cardsRef} className={`flex justify-center transition-all duration-700 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             {/* Main CTA Card */}
-            <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm relative overflow-hidden group">
+            <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm relative overflow-hidden group max-w-2xl w-full">
               <div className="relative z-10">
                 <div className="flex items-center gap-3 mb-6">
                   <div className="w-12 h-12 flex items-center justify-center">
@@ -75,7 +75,12 @@ export const Contact = () => {
                   </div>
                 </div>
 
-                <Button variant="hero" size="lg" className="w-full group">
+                <Button 
+                  variant="hero" 
+                  size="lg" 
+                  className="w-full group"
+                  onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
+                >
                   Réserver un créneau
                 </Button>
               </div>
@@ -83,13 +88,6 @@ export const Contact = () => {
               {/* Background gradient */}
               <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
             </Card>
-
-            {/* Contact Options */}
-            <div className="space-y-4">
-              
-
-              
-            </div>
           </div>
         </div>
       </div>
