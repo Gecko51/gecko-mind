@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import clarkImage from "@/assets/portrait_agent_clark.png";
+import liliImage from "@/assets/portrait_agent_lili.png";
 
 const agents = [
   {
@@ -21,6 +22,7 @@ const agents = [
   {
     name: "Lili",
     icon: TrendingUp,
+    image: liliImage,
     description: "Agent IA expert en prospection et en psychologie de vente",
     color: "text-purple-400",
     tasks: [
