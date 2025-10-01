@@ -86,37 +86,9 @@ export const Contact = () => {
 
             {/* Contact Options */}
             <div className="space-y-4">
-              <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center">
-                    <img src={emailIcon} alt="Email" className="w-10 h-10 opacity-80 object-contain" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Email direct</h4>
-                    <p style={{
-                    color: '#ababab'
-                  }} className="text-sm">Réponse sous 24h</p>
-                  </div>
-                  <Button variant="outline-glow" size="sm" className="ml-auto">
-                    Envoyer
-                  </Button>
-                </div>
-              </Card>
+              
 
-              <Card className="p-6 bg-gradient-card border-border/50 backdrop-blur-sm hover:shadow-glow-primary/20 transition-all duration-300 group">
-                <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center">
-                    <img src={commentIcon} alt="Message" className="w-10 h-10 opacity-80 object-contain" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">LinkedIn</h4>
-                    <p className="text-sm text-muted-foreground">Message direct</p>
-                  </div>
-                  <Button variant="outline-glow" size="sm" className="ml-auto">
-                    Contacter
-                  </Button>
-                </div>
-              </Card>
+              
             </div>
           </div>
         </div>
