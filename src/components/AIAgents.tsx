@@ -8,7 +8,11 @@ const agents = [
     icon: Users,
     description: "Agent IA chargé de la relation client",
     color: "text-blue-400",
-    tasks: []
+    tasks: [
+      "Gestion des emails",
+      "Onboarding et mail de bienvenue",
+      "Synchronisation du CRM et de l'agenda"
+    ]
   },
   {
     name: "Lili",
