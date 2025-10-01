@@ -1,11 +1,13 @@
 import { Card } from "@/components/ui/card";
 import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import clarkImage from "@/assets/portrait_agent_clark.png";
 
 const agents = [
   {
     name: "Clark",
     icon: Users,
+    image: clarkImage,
     description: "Agent IA chargé de la relation client",
     color: "text-blue-400",
     tasks: [
@@ -89,9 +91,15 @@ export const AIAgents = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="flex flex-col items-center text-center">
-                  <div className={`w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 ${agent.color}`}>
-                    <IconComponent className="w-8 h-8" />
-                  </div>
+                  {agent.image ? (
+                    <div className="w-16 h-16 rounded-full mb-6 overflow-hidden border-2 border-primary/30">
+                      <img src={agent.image} alt={agent.name} className="w-full h-full object-cover" />
+                    </div>
+                  ) : (
+                    <div className={`w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 ${agent.color}`}>
+                      <IconComponent className="w-8 h-8" />
+                    </div>
+                  )}
                   
                   <h3 className="text-2xl font-bold mb-4 text-white">{agent.name}</h3>
                   
