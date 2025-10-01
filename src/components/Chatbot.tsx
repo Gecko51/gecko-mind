@@ -27,8 +27,7 @@ export const Chatbot = () => {
   const scrollRef = useRef<HTMLDivElement>(null);
   const { toast } = useToast();
 
-  const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL;
-  const EDGE_FUNCTION_URL = `${SUPABASE_URL}/functions/v1/chat-webhook`;
+  const WEBHOOK_URL = 'https://n8n.srv810123.hstgr.cloud/webhook-test/5ce53611-5760-41e5-aadd-c9704d4b634a';
 
   useEffect(() => {
     if (scrollRef.current) {
@@ -51,7 +50,7 @@ export const Chatbot = () => {
     setIsLoading(true);
 
     try {
-      const response = await fetch(EDGE_FUNCTION_URL, {
+      const response = await fetch(WEBHOOK_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
