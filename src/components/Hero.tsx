@@ -55,7 +55,11 @@ export const Hero = () => {
             >
               Découvrir les agents IA
             </Button>
-            <Button variant="outline-glow" size="lg">
+            <Button 
+              variant="outline-glow" 
+              size="lg"
+              onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
+            >
               Contacter Guillaume
             </Button>
           </div>
