@@ -31,8 +31,7 @@ const agents = [
       "Gestion du tunnel de vente",
       "Analyse psychographique",
       "Script de vente personnalisé",
-      "Anticipation des objections",
-      "Création de lead magnets"
+      "Anticipation des objections"
     ]
   },
   {
