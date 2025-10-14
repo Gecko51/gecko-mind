@@ -14,8 +14,8 @@ const agents = [
     color: "text-blue-400",
     tasks: [
       "Gestion des emails",
-      "Onboarding et mail de bienvenue",
-      "Synchronisation du CRM et de l'agenda",
+      "Onboarding et gestion des RDV",
+      "Synchronisation du CRM et des relances",
       "Newsletter et lead nurturing",
       "Chatbot conversationnel 24/7"
     ]
