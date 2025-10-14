@@ -96,7 +96,7 @@ export const AIAgents = () => {
               >
                 <div className="flex flex-col items-center text-center">
                   {agent.image ? (
-                    <div className="w-24 h-24 rounded-full mb-6 overflow-hidden">
+                    <div className="w-24 h-24 rounded-full mb-6 overflow-hidden border-0">
                       <img src={agent.image} alt={agent.name} className="w-full h-full object-cover" />
                     </div>
                   ) : (
