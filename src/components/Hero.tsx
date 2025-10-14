@@ -58,7 +58,7 @@ export const Hero = () => {
             <Button 
               variant="outline-glow" 
               size="lg"
-              onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}
+              onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
             >
               Contacter Guillaume
             </Button>
