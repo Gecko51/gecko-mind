@@ -1,4 +1,5 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
+import { Button } from "@/components/ui/button";
 const faqData = [{
   question: "Qu'est-ce qu'un workflow sur-mesure et à quoi ça sert ?",
   answer: "Un workflow sur-mesure est une chaîne d'actions automatisée que nous créons spécifiquement pour votre entreprise. L'objectif est de prendre en charge les tâches répétitives et chronophages (comme la saisie de données, l'envoi d'e-mails, la génération de rapports, etc.) pour que vous et votre équipe puissiez vous concentrer sur des missions à plus forte valeur ajoutée. C'est un gain de temps, d'efficacité et une réduction drastique des erreurs humaines."
@@ -42,6 +43,16 @@ export const FAQ = () => {
           <p className="text-lg max-w-2xl mx-auto text-foreground">
             Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
           </p>
+          <div className="mt-6">
+            <Button
+              asChild
+              className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow-primary"
+            >
+              <a href="https://gecko-labs-chatbot.lovable.app/" target="_blank" rel="noopener noreferrer">
+                Parler à un agent IA
+              </a>
+            </Button>
+          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
