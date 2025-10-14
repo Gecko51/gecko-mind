@@ -79,7 +79,7 @@ export const Contact = () => {
                   variant="hero" 
                   size="lg" 
                   className="w-full group"
-                  onClick={() => window.open('https://calendly.com/gecko-design/reunion-initiale', '_blank')}
+                  onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}
                 >
                   Demander une démonstration
                 </Button>
