@@ -96,9 +96,7 @@ export const AIAgents = () => {
               >
                 <div className="flex flex-col items-center text-center">
                   {agent.image ? (
-                    <div className="w-24 h-24 rounded-full mb-6 overflow-hidden border-0">
-                      <img src={agent.image} alt={agent.name} className="w-full h-full object-cover" />
-                    </div>
+                    <img src={agent.image} alt={agent.name} className="w-24 h-24 rounded-full mb-6 object-cover" />
                   ) : (
                     <div className={`w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 ${agent.color}`}>
                       <IconComponent className="w-8 h-8" />
