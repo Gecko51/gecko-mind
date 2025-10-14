@@ -27,7 +27,8 @@ const agents = [
     description: "Agent IA expert en prospection et en psychologie de vente",
     color: "text-purple-400",
     tasks: [
-      "Recherche ciblée de prospects",
+      "Recherche ciblée de leads",
+      "Gestion du tunnel de vente",
       "Analyse psychographique",
       "Script de vente personnalisé",
       "Anticipation des objections"
