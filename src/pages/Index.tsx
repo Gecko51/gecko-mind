@@ -11,27 +11,7 @@ import { Contact } from "@/components/Contact";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
 import { Chatbot } from "@/components/Chatbot";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
-      <Header />
-      <main>
-        <Hero />
-        <Mission />
-        <ServiceDetails />
-        <Results />
-        <Method />
-        <Services />
-        <AIAgents />
-        <About />
-        <Contact />
-        <FAQ />
-      </main>
-      <Footer />
-      <Chatbot />
-    </div>
-  );
+  return;
 };
-
 export default Index;
