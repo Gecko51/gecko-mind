@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import testimonialsBg from "@/assets/testimonials-glitter-bg.jpg";
+import testimonialsBg from "@/assets/testimonials-sparkle-bg.jpg";
 import davidProfile from "@/assets/profile-david.jpg";
 import elricProfile from "@/assets/profile-elric.jpg";
 import williamProfile from "@/assets/profile-william.jpg";
