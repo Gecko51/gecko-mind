@@ -71,7 +71,7 @@ export const Testimonials = () => {
   const duplicatedSecondRow = [...secondRowTestimonials, ...secondRowTestimonials];
 
   return (
-    <section className="pt-20 pb-0 overflow-hidden relative bg-black">
+    <section className="py-20 overflow-hidden relative bg-black">
       <div 
         className="absolute inset-0 opacity-50"
         style={{
@@ -101,7 +101,7 @@ export const Testimonials = () => {
         <div className="md:hidden absolute left-0 right-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none" />
 
         {/* Mobile: Vertical scroll */}
-        <div className="md:hidden testimonials-scroll-vertical flex flex-col gap-4 px-6 pb-20">
+        <div className="md:hidden testimonials-scroll-vertical flex flex-col gap-4 px-6 max-h-[800px]">
           {testimonials.map((testimonial, index) => (
             <Card
               key={index}
