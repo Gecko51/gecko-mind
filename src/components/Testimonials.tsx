@@ -5,6 +5,7 @@ import davidProfile from "@/assets/profile-david.jpg";
 import elricProfile from "@/assets/profile-elric.jpg";
 import williamProfile from "@/assets/profile-william.jpg";
 import georgesProfile from "@/assets/profile-georges.png";
+import christianProfile from "@/assets/profile-christian.jpg";
 
 const testimonials = [
   {
@@ -22,11 +23,11 @@ const testimonials = [
     text: "Au-delà des gains de productivité chiffrés, Guillaume nous a donné les clés et les compétences pour affronter les défis de demain. Sa vision sur l'évolution du travail et de la productivité est éclairante. Il nous a rendus plus forts, plus agiles et résolument tournés vers le futur."
   },
   {
-    name: "Marie Laurent",
-    company: "Agence Marketing",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Marie",
+    name: "Christian Oudot",
+    company: "Executive Leader - Telecom, IT & Cybersecurity",
+    avatar: christianProfile,
     rating: 5,
-    text: "Il a su faire preuve d'écoute et de professionnalisme tout au long de la prestation. Le reporting automatique nous fait gagner un temps précieux."
+    text: "Je recommande Guillaume pour sa polyvalence et son immense curiosité. Son expertise en prompt engineering et solutions IA est chirurgicale. Si vous cherchez à décupler la puissance de l'IA dans votre entreprise, Guillaume est sans aucun doute l'expert qu'il vous faut."
   },
   {
     name: "Pierre Rousseau",
