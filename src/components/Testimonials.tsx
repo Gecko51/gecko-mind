@@ -91,7 +91,7 @@ export const Testimonials = () => {
         </p>
       </div>
 
-      <div className="relative z-10 space-y-6">
+      <div className="relative z-10 space-y-2">
         {/* Gradient overlays for smooth edge fade */}
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
