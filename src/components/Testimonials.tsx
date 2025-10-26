@@ -87,7 +87,7 @@ export const Testimonials = () => {
           </span>
         </h2>
         <p className="text-center text-muted-foreground max-w-2xl mx-auto">
-          Aujourd'hui, ils sont plus efficaces et ont retrouvé la sérénité
+          Maintenant, ils avancent plus vite et ont l'esprit libéré
         </p>
       </div>
 
