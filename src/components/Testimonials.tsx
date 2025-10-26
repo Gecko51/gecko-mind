@@ -100,9 +100,9 @@ export const Testimonials = () => {
         <div className="md:hidden absolute left-0 right-0 top-0 h-32 bg-gradient-to-b from-black to-transparent z-10 pointer-events-none" />
         <div className="md:hidden absolute left-0 right-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none" />
 
-        {/* Mobile: Vertical scroll */}
-        <div className="md:hidden testimonials-scroll-vertical flex flex-col gap-4 px-6 max-h-[800px]">
-          {testimonials.map((testimonial, index) => (
+        {/* Mobile: Vertical scroll - both rows combined */}
+        <div className="md:hidden testimonials-scroll-vertical flex flex-col gap-4 px-6 max-h-[800px] pb-20">
+          {[...testimonials, ...testimonials].map((testimonial, index) => (
             <Card
               key={index}
               className="testimonial-card w-full p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
