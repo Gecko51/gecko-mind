@@ -3,6 +3,7 @@ import { Card } from "@/components/ui/card";
 import testimonialsBg from "@/assets/testimonials-glitter-bg.jpg";
 import davidProfile from "@/assets/profile-david.jpg";
 import elricProfile from "@/assets/profile-elric.jpg";
+import williamProfile from "@/assets/profile-william.jpg";
 
 const testimonials = [
   {
@@ -41,11 +42,11 @@ const testimonials = [
     text: "J'ai particulièrement apprécié l'expertise de Guillaume en prompt engineering. Sa capacité à maitriser les paramètres des modèles de langage, à construire des chaînes de prompts complexes pour automatiser les workflows est de premier ordre. Il a fait progresser ma connaissance et mon utilisation des LLMs au-delà de ce que je pensais possible, avec un impact direct sur ma productivité."
   },
   {
-    name: "Alexandre Petit",
-    company: "Consultante RH",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Alexandre",
+    name: "William Faurisson",
+    company: "Infogérance & Maintenance informatique",
+    avatar: williamProfile,
     rating: 5,
-    text: "Je suis absolument ravi de la vidéo. Dès le début, ils ont été à l'écoute de mes besoins et ont su parfaitement traduire mes idées."
+    text: "Guillaume ne se contente pas d'appliquer des solutions existantes. C'est un véritable innovateur qui nous a ouvert les yeux sur les possibilités offertes par l'IA générative. Je recommande son expertise."
   },
   {
     name: "Camille Moreau",
