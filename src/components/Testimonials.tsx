@@ -91,7 +91,7 @@ export const Testimonials = () => {
         </p>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10 overflow-hidden">
         {/* Gradient overlays for smooth edge fade - desktop only */}
         <div className="hidden md:block absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
         <div className="hidden md:block absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
