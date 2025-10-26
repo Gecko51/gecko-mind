@@ -226,24 +226,12 @@ export const Testimonials = () => {
           animation: scroll-vertical 30s linear infinite;
         }
 
-        .testimonials-scroll-vertical:hover {
-          animation-play-state: paused;
-        }
-
         .testimonials-scroll {
           animation: scroll 20s linear infinite;
         }
 
-        .testimonials-scroll:hover {
-          animation-play-state: paused;
-        }
-
         .testimonials-scroll-reverse {
           animation: scroll-reverse 20s linear infinite;
-        }
-
-        .testimonials-scroll-reverse:hover {
-          animation-play-state: paused;
         }
 
         @media (min-width: 768px) {
