@@ -46,9 +46,7 @@ export const Hero = () => {
               behavior: 'smooth'
             });
           }}>Découvrir les systèmes</Button>
-            <Button variant="outline-glow" size="lg" onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}>
-              Contacter Guillaume
-            </Button>
+            
           </div>
 
         </div>
