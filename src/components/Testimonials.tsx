@@ -58,13 +58,6 @@ const testimonials = [
     avatar: francoisProfile,
     rating: 5,
     text: "Guillaume est un véritable architecte de la productivité. Il a su analyser nos fondations, identifier les points de friction et bâtir des systèmes de travail entièrement nouveaux, propulsés par l'IA."
-  },
-  {
-    name: "Lucas Garcia",
-    company: "Entreprise de Services",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Lucas",
-    rating: 5,
-    text: "Le résultat final est incroyable ! J'ai été livré super vite. Les process automatisés nous ont permis de doubler notre capacité sans recruter."
   }
 ];
 
