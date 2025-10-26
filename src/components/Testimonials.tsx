@@ -1,5 +1,6 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
+import testimonialsBg from "@/assets/testimonials-bg.jpg";
 
 const testimonials = [
   {
@@ -65,8 +66,16 @@ export const Testimonials = () => {
   const duplicatedTestimonials = [...testimonials, ...testimonials];
 
   return (
-    <section className="py-20 bg-background overflow-hidden">
-      <div className="container mx-auto px-6 mb-12">
+    <section className="py-20 overflow-hidden relative bg-black">
+      <div 
+        className="absolute inset-0 opacity-50"
+        style={{
+          backgroundImage: `url(${testimonialsBg})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      />
+      <div className="container mx-auto px-6 mb-12 relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
           <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
             Ils nous font confiance
@@ -77,7 +86,7 @@ export const Testimonials = () => {
         </p>
       </div>
 
-      <div className="relative">
+      <div className="relative z-10">
         {/* Gradient overlays for smooth edge fade */}
         <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
         <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
