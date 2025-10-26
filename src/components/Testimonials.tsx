@@ -101,7 +101,7 @@ export const Testimonials = () => {
           {duplicatedFirstRow.map((testimonial, index) => (
             <Card
               key={index}
-              className="testimonial-card flex-shrink-0 w-[280px] sm:w-[350px] md:w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+              className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
                 <img
@@ -131,7 +131,7 @@ export const Testimonials = () => {
           {duplicatedSecondRow.map((testimonial, index) => (
             <Card
               key={index}
-              className="testimonial-card flex-shrink-0 w-[280px] sm:w-[350px] md:w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+              className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
                 <img
