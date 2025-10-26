@@ -2,6 +2,7 @@ import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import testimonialsBg from "@/assets/testimonials-glitter-bg.jpg";
 import davidProfile from "@/assets/profile-david.jpg";
+import elricProfile from "@/assets/profile-elric.jpg";
 
 const testimonials = [
   {
@@ -33,11 +34,11 @@ const testimonials = [
     text: "J'ai eu l'occasion de collaborer avec une vidéo en motion design et je suis ravi du résultat. L'onboarding automatisé a réduit notre temps d'intégration de 70%."
   },
   {
-    name: "Julie Bernard",
-    company: "Restaurant Gastronomique",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Julie",
+    name: "Elric Noirtin",
+    company: "Formateur chez ELRIC NOIRTIN FORMATION",
+    avatar: elricProfile,
     rating: 5,
-    text: "Le rendu est moderne, fluide et parfaitement à mes besoins. La gestion automatique des réservations a transformé notre organisation."
+    text: "J'ai particulièrement apprécié l'expertise de Guillaume en prompt engineering. Sa capacité à maitriser les paramètres des modèles de langage, à construire des chaînes de prompts complexes pour automatiser les workflows est de premier ordre. Il a fait progresser ma connaissance et mon utilisation des LLMs au-delà de ce que je pensais possible, avec un impact direct sur ma productivité."
   },
   {
     name: "Alexandre Petit",
