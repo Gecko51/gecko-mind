@@ -1,6 +1,6 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
-import testimonialsBg from "@/assets/testimonials-bg.jpg";
+import testimonialsBg from "@/assets/testimonials-glitter-bg.jpg";
 import davidProfile from "@/assets/profile-david.jpg";
 
 const testimonials = [
