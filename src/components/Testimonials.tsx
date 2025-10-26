@@ -177,7 +177,7 @@ export const Testimonials = () => {
         }
 
         .testimonials-scroll {
-          animation: scroll 40s linear infinite;
+          animation: scroll 20s linear infinite;
         }
 
         .testimonials-scroll:hover {
@@ -185,11 +185,21 @@ export const Testimonials = () => {
         }
 
         .testimonials-scroll-reverse {
-          animation: scroll-reverse 40s linear infinite;
+          animation: scroll-reverse 20s linear infinite;
         }
 
         .testimonials-scroll-reverse:hover {
           animation-play-state: paused;
+        }
+
+        @media (min-width: 768px) {
+          .testimonials-scroll {
+            animation: scroll 40s linear infinite;
+          }
+
+          .testimonials-scroll-reverse {
+            animation: scroll-reverse 40s linear infinite;
+          }
         }
       `}</style>
     </section>
