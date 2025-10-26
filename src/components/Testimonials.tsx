@@ -1,14 +1,15 @@
 import { Star } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import testimonialsBg from "@/assets/testimonials-bg.jpg";
+import davidProfile from "@/assets/profile-david.jpg";
 
 const testimonials = [
   {
-    name: "Sophie Martin",
-    company: "E-commerce Mode",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Sophie",
+    name: "David PHOTIADE",
+    company: "Ingénieur d'affaires | Account Executive | B2B | SAAS",
+    avatar: davidProfile,
     rating: 5,
-    text: "L'automatisation a transformé notre gestion des commandes. Nous avons gagné 15 heures par semaine que nous réinvestissons dans la relation client."
+    text: "Guillaume excelle dans l'analyse de taches chronophages, pour les convertir en solutions automatisées. Ainsi, grace a son expertise, il dégage de vraies marges concrètes avec l'intelligence artificielle au service de votre efficacité opérationnelle."
   },
   {
     name: "Thomas Dubois",
