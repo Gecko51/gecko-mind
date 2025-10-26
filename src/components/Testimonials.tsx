@@ -83,7 +83,7 @@ export const Testimonials = () => {
       <div className="container mx-auto px-6 mb-12 relative z-10">
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
           <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            Ils m'ont fait confiance
+            Ils vivaient les mêmes frustrations que vous.
           </span>
         </h2>
         <p className="text-center text-muted-foreground max-w-2xl mx-auto">
