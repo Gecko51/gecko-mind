@@ -7,7 +7,6 @@ import williamProfile from "@/assets/profile-william.jpg";
 import georgesProfile from "@/assets/profile-georges.png";
 import christianProfile from "@/assets/profile-christian.jpg";
 import joachimProfile from "@/assets/profile-joachim.jpg";
-import francoisProfile from "@/assets/profile-francois.jpg";
 
 const testimonials = [
   {
@@ -53,11 +52,11 @@ const testimonials = [
     text: "Guillaume ne se contente pas d'appliquer des solutions existantes. C'est un véritable innovateur qui nous a ouvert les yeux sur les possibilités offertes par l'IA générative. Je recommande son expertise."
   },
   {
-    name: "François BOUVIER",
-    company: "Protocole Anti-Chaos™ | Middle Managers",
-    avatar: francoisProfile,
+    name: "Camille Moreau",
+    company: "Studio Créatif",
+    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Camille",
     rating: 5,
-    text: "Guillaume est un véritable architecte de la productivité. Il a su analyser nos fondations, identifier les points de friction et bâtir des systèmes de travail entièrement nouveaux, propulsés par l'IA."
+    text: "Toujours impeccable, la vidéo est superbe. Même pas besoin de retouche. L'automatisation de notre workflow créatif nous a libéré du temps pour l'innovation."
   },
   {
     name: "Lucas Garcia",
