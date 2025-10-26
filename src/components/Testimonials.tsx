@@ -4,6 +4,7 @@ import testimonialsBg from "@/assets/testimonials-glitter-bg.jpg";
 import davidProfile from "@/assets/profile-david.jpg";
 import elricProfile from "@/assets/profile-elric.jpg";
 import williamProfile from "@/assets/profile-william.jpg";
+import georgesProfile from "@/assets/profile-georges.png";
 
 const testimonials = [
   {
@@ -14,11 +15,11 @@ const testimonials = [
     text: "Guillaume excelle dans l'analyse de taches chronophages, pour les convertir en solutions automatisées. Ainsi, grace a son expertise, il dégage de vraies marges concrètes avec l'intelligence artificielle au service de votre efficacité opérationnelle."
   },
   {
-    name: "Thomas Dubois",
-    company: "Cabinet Comptable",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Thomas",
+    name: "Georges Lenarth",
+    company: "Manager expérimenté | Projets stratégiques & transformations",
+    avatar: georgesProfile,
     rating: 5,
-    text: "Parfait, le résultat est comme je le recommande vivement ! La synchronisation automatique entre nos outils a éliminé toutes les erreurs de saisie."
+    text: "Au-delà des gains de productivité chiffrés, Guillaume nous a donné les clés et les compétences pour affronter les défis de demain. Sa vision sur l'évolution du travail et de la productivité est éclairante. Il nous a rendus plus forts, plus agiles et résolument tournés vers le futur."
   },
   {
     name: "Marie Laurent",
