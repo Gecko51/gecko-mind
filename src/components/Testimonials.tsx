@@ -87,7 +87,7 @@ export const Testimonials = () => {
           </span>
         </h2>
         <p className="text-center text-muted-foreground max-w-2xl mx-auto">
-          Découvrez les témoignages de nos clients qui ont transformé leur activité grâce à l'automatisation
+          Aujourd'hui, ils sont plus efficaces et ont retrouvé la sérénité
         </p>
       </div>
 
