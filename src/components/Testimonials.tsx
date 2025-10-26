@@ -91,17 +91,21 @@ export const Testimonials = () => {
         </p>
       </div>
 
-      <div className="relative z-10 space-y-2">
-        {/* Gradient overlays for smooth edge fade */}
-        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
-        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
+      <div className="relative z-10">
+        {/* Gradient overlays for smooth edge fade - desktop only */}
+        <div className="hidden md:block absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
+        <div className="hidden md:block absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
+        
+        {/* Gradient overlays for vertical scroll - mobile only */}
+        <div className="md:hidden absolute left-0 right-0 top-0 h-32 bg-gradient-to-b from-black to-transparent z-10 pointer-events-none" />
+        <div className="md:hidden absolute left-0 right-0 bottom-0 h-32 bg-gradient-to-t from-black to-transparent z-10 pointer-events-none" />
 
-        {/* First row - scrolling left */}
-        <div className="testimonials-scroll flex gap-6 py-4">
-          {duplicatedFirstRow.map((testimonial, index) => (
+        {/* Mobile: Vertical scroll */}
+        <div className="md:hidden testimonials-scroll-vertical flex flex-col gap-4 px-6 max-h-[600px]">
+          {testimonials.map((testimonial, index) => (
             <Card
               key={index}
-              className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+              className="testimonial-card w-full p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
             >
               <div className="flex items-start gap-4 mb-4">
                 <img
@@ -126,34 +130,67 @@ export const Testimonials = () => {
           ))}
         </div>
 
-        {/* Second row - scrolling right */}
-        <div className="testimonials-scroll-reverse flex gap-6 py-4">
-          {duplicatedSecondRow.map((testimonial, index) => (
-            <Card
-              key={index}
-              className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
-            >
-              <div className="flex items-start gap-4 mb-4">
-                <img
-                  src={testimonial.avatar}
-                  alt={testimonial.name}
-                  className="w-12 h-12 rounded-full"
-                />
-                <div className="flex-1">
-                  <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
-                  <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+        {/* Desktop: Horizontal scroll */}
+        <div className="hidden md:block space-y-2">
+          {/* First row - scrolling left */}
+          <div className="testimonials-scroll flex gap-6 py-4">
+            {duplicatedFirstRow.map((testimonial, index) => (
+              <Card
+                key={index}
+                className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+              >
+                <div className="flex items-start gap-4 mb-4">
+                  <img
+                    src={testimonial.avatar}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full"
+                  />
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
+                    <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                  </div>
+                  <div className="flex gap-1">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    ))}
+                  </div>
                 </div>
-                <div className="flex gap-1">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
-                  ))}
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {testimonial.text}
+                </p>
+              </Card>
+            ))}
+          </div>
+
+          {/* Second row - scrolling right */}
+          <div className="testimonials-scroll-reverse flex gap-6 py-4">
+            {duplicatedSecondRow.map((testimonial, index) => (
+              <Card
+                key={index}
+                className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+              >
+                <div className="flex items-start gap-4 mb-4">
+                  <img
+                    src={testimonial.avatar}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full"
+                  />
+                  <div className="flex-1">
+                    <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
+                    <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                  </div>
+                  <div className="flex gap-1">
+                    {[...Array(testimonial.rating)].map((_, i) => (
+                      <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                    ))}
+                  </div>
                 </div>
-              </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                {testimonial.text}
-              </p>
-            </Card>
-          ))}
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  {testimonial.text}
+                </p>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -174,6 +211,23 @@ export const Testimonials = () => {
           100% {
             transform: translateX(0);
           }
+        }
+
+        @keyframes scroll-vertical {
+          0% {
+            transform: translateY(0);
+          }
+          100% {
+            transform: translateY(-100%);
+          }
+        }
+
+        .testimonials-scroll-vertical {
+          animation: scroll-vertical 30s linear infinite;
+        }
+
+        .testimonials-scroll-vertical:hover {
+          animation-play-state: paused;
         }
 
         .testimonials-scroll {
