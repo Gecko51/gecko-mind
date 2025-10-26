@@ -62,8 +62,13 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  // Duplicate testimonials for infinite scroll effect
-  const duplicatedTestimonials = [...testimonials, ...testimonials];
+  // Split testimonials into two groups
+  const firstRowTestimonials = testimonials.slice(0, 4);
+  const secondRowTestimonials = testimonials.slice(4);
+  
+  // Duplicate for infinite scroll effect
+  const duplicatedFirstRow = [...firstRowTestimonials, ...firstRowTestimonials];
+  const duplicatedSecondRow = [...secondRowTestimonials, ...secondRowTestimonials];
 
   return (
     <section className="py-20 overflow-hidden relative bg-black">
@@ -86,14 +91,44 @@ export const Testimonials = () => {
         </p>
       </div>
 
-      <div className="relative z-10">
+      <div className="relative z-10 space-y-6">
         {/* Gradient overlays for smooth edge fade */}
-        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-background to-transparent z-10" />
-        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-background to-transparent z-10" />
+        <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-black to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-black to-transparent z-10 pointer-events-none" />
 
-        {/* Scrolling container */}
+        {/* First row - scrolling left */}
         <div className="testimonials-scroll flex gap-6 py-4">
-          {duplicatedTestimonials.map((testimonial, index) => (
+          {duplicatedFirstRow.map((testimonial, index) => (
+            <Card
+              key={index}
+              className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
+            >
+              <div className="flex items-start gap-4 mb-4">
+                <img
+                  src={testimonial.avatar}
+                  alt={testimonial.name}
+                  className="w-12 h-12 rounded-full"
+                />
+                <div className="flex-1">
+                  <h4 className="font-semibold text-foreground">{testimonial.name}</h4>
+                  <p className="text-sm text-muted-foreground">{testimonial.company}</p>
+                </div>
+                <div className="flex gap-1">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star key={i} className="w-4 h-4 fill-primary text-primary" />
+                  ))}
+                </div>
+              </div>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                {testimonial.text}
+              </p>
+            </Card>
+          ))}
+        </div>
+
+        {/* Second row - scrolling right */}
+        <div className="testimonials-scroll-reverse flex gap-6 py-4">
+          {duplicatedSecondRow.map((testimonial, index) => (
             <Card
               key={index}
               className="testimonial-card flex-shrink-0 w-[400px] p-6 bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-all duration-300"
@@ -132,11 +167,28 @@ export const Testimonials = () => {
           }
         }
 
+        @keyframes scroll-reverse {
+          0% {
+            transform: translateX(-50%);
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+
         .testimonials-scroll {
           animation: scroll 40s linear infinite;
         }
 
         .testimonials-scroll:hover {
+          animation-play-state: paused;
+        }
+
+        .testimonials-scroll-reverse {
+          animation: scroll-reverse 40s linear infinite;
+        }
+
+        .testimonials-scroll-reverse:hover {
           animation-play-state: paused;
         }
       `}</style>
