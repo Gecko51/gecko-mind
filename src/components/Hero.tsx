@@ -4,20 +4,15 @@ import heroImage from "@/assets/hero-particles.jpg";
 import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
 import airtableLogo from "@/assets/airtable-logo.png";
-
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero" />
-      <div 
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      />
+      <div className="absolute inset-0" style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center'
+    }} />
       
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pt-8 text-center">
@@ -46,20 +41,12 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button 
-              variant="hero" 
-              size="lg"
-              onClick={() => {
-                document.getElementById('ai-agents')?.scrollIntoView({ behavior: 'smooth' });
-              }}
-            >
-              Découvrir les agents IA
-            </Button>
-            <Button 
-              variant="outline-glow" 
-              size="lg"
-              onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}
-            >
+            <Button variant="hero" size="lg" onClick={() => {
+            document.getElementById('ai-agents')?.scrollIntoView({
+              behavior: 'smooth'
+            });
+          }}>Découvrir les systèmes</Button>
+            <Button variant="outline-glow" size="lg" onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}>
               Contacter Guillaume
             </Button>
           </div>
@@ -69,7 +56,8 @@ export const Hero = () => {
 
       {/* Floating elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" />
-      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-float" style={{ animationDelay: '1s' }} />
-    </section>
-  );
+      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-float" style={{
+      animationDelay: '1s'
+    }} />
+    </section>;
 };
