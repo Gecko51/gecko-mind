@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Zap } from "lucide-react";
+import { ArrowRight, Sparkles, Zap, Bot } from "lucide-react";
 import heroImage from "@/assets/hero-particles.jpg";
 import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
@@ -19,6 +19,7 @@ export const Hero = () => {
         <div className="animate-fade-in">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-8">
+            <Bot className="w-4 h-4 text-primary" />
             <span className="text-sm font-bold">Solutions IA sur-mesure</span>
           </div>
 
