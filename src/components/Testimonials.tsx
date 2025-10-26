@@ -6,6 +6,7 @@ import elricProfile from "@/assets/profile-elric.jpg";
 import williamProfile from "@/assets/profile-william.jpg";
 import georgesProfile from "@/assets/profile-georges.png";
 import christianProfile from "@/assets/profile-christian.jpg";
+import joachimProfile from "@/assets/profile-joachim.jpg";
 
 const testimonials = [
   {
@@ -30,11 +31,11 @@ const testimonials = [
     text: "Je recommande Guillaume pour sa polyvalence et son immense curiosité. Son expertise en prompt engineering et solutions IA est chirurgicale. Si vous cherchez à décupler la puissance de l'IA dans votre entreprise, Guillaume est sans aucun doute l'expert qu'il vous faut."
   },
   {
-    name: "Pierre Rousseau",
-    company: "Start-up Tech",
-    avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Pierre",
+    name: "Joachim Levy",
+    company: "Expert de la Différence, de l'inclusion, de la résilience",
+    avatar: joachimProfile,
     rating: 5,
-    text: "J'ai eu l'occasion de collaborer avec une vidéo en motion design et je suis ravi du résultat. L'onboarding automatisé a réduit notre temps d'intégration de 70%."
+    text: "J'ai fait appel à Guillaume en mars dernier pour m'aider à automatiser mes contenus Linkedin. Il m'a surpris par son expertise sur les dernières nouveautés en termes d'IA, la façon de créer des contenus et des images de qualité et d'optimiser les tâches. J'apprécie aussi beaucoup la bienveillance dont il fait preuve, l'exigence qu'il a envers lui-même à perfectionner son travail au service du client et son sens de la pédagogie. Enfin un consultant compétent et fiable !"
   },
   {
     name: "Elric Noirtin",
