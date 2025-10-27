@@ -45,8 +45,7 @@ const agents = [
       "Recherche des tendances et hooks viraux",
       "Gestion complète du calendrier éditorial",
       "Création de contenu LinkedIn automatisé",
-      "Génération de visuels de haute qualité",
-      "Création de lead magnets"
+      "Interface de suivi et de gestion des interactions"
     ]
   }
 ];
