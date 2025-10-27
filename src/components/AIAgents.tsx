@@ -7,7 +7,7 @@ import venusImage from "@/assets/portrait_agent_venus.png";
 
 const agents = [
   {
-    name: "Clark",
+    name: "Gecko Hub",
     icon: Users,
     image: clarkImage,
     description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé",
