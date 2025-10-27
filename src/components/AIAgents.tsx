@@ -29,10 +29,10 @@ const agents = [
     color: "text-purple-400",
     tasks: [
       "Recherche ciblée de leads",
-      "Gestion du tunnel de vente",
-      "Analyse psychographique",
-      "Script de vente personnalisé",
-      "Anticipation des objections"
+      "Outreach LinkedIn automatisé",
+      "Séquences de prospection prêtes à l'emploi",
+      "Templates sur-mesure, icebreakers et relances",
+      "Formation de mise en œuvre"
     ]
   },
   {
