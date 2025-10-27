@@ -13,11 +13,11 @@ const agents = [
     description: "Agent IA chargé de la relation client",
     color: "text-blue-400",
     tasks: [
-      "Gestion des emails",
-      "Onboarding et gestion des RDV",
+      "Onboarding client automatisé",
       "Synchronisation du CRM et des relances",
-      "Newsletter et lead nurturing",
-      "Chatbot conversationnel 24/7"
+      "Gestion de la boite mail professionnelle",
+      "Synchronisation de l'agenda",
+      "Relances automatiques"
     ]
   },
   {
