@@ -10,7 +10,7 @@ const agents = [
     name: "Clark",
     icon: Users,
     image: clarkImage,
-    description: "Agent IA chargé de la relation client",
+    description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé",
     color: "text-blue-400",
     tasks: [
       "Onboarding client automatisé",
