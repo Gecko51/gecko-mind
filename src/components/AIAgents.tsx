@@ -30,8 +30,7 @@ const agents = [
       "Recherche ciblée de leads",
       "Outreach LinkedIn automatisé",
       "Séquences de prospection prêtes à l'emploi",
-      "Templates sur-mesure, icebreakers et relances",
-      "Formation de mise en œuvre"
+      "Templates sur-mesure, icebreakers et relances"
     ]
   },
   {
