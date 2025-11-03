@@ -43,7 +43,16 @@ export const FAQ = () => {
           <p className="text-lg max-w-2xl mx-auto text-foreground">
             Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
           </p>
-          
+          <div className="mt-6">
+            <Button
+              asChild
+              className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow-primary"
+            >
+              <a href="https://gecko-labs-chatbot.lovable.app/" target="_blank" rel="noopener noreferrer">
+                Parler à un agent IA
+              </a>
+            </Button>
+          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">
