@@ -34,9 +34,7 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
-            Le système de tunnel de vente IA ancré sur vos résultats commerciaux.
-          </p>
+          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">Un système de tunnel de vente IA ancré sur vos résultats commerciaux.</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
