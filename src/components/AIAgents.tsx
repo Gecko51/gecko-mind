@@ -24,7 +24,7 @@ const agents = [
     name: "Lili",
     icon: TrendingUp,
     image: liliImage,
-    description: "Agent IA expert en prospection et en psychologie de vente",
+    description: "Un système qui aide à générer des leads qualifiés sans dépenser en publicités",
     color: "text-purple-400",
     tasks: [
       "Recherche ciblée de leads",
