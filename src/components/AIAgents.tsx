@@ -10,7 +10,7 @@ const agents = [
     name: "Gecko Hub",
     icon: Users,
     image: clarkImage,
-    description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé",
+    description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé et économisez 10 heures par semaine",
     color: "text-blue-400",
     tasks: [
       "Onboarding client automatisé",
