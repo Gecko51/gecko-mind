@@ -4,14 +4,8 @@ const faqData = [{
   question: "Quels types de processus pouvez-vous automatiser ?",
   answer: "Pratiquement tous les processus numériques répétitifs ! Voici quelques exemples courants :\n\nMarketing & Ventes : Synchronisation des leads entre votre CRM et vos listes d'e-mailing, envoi de relances automatiques.\n\nRessources Humaines : Intégration des nouveaux employés (onboarding), gestion des candidatures.\n\nAdministratif : Création automatique de factures, archivage de documents.\n\nOpérations : Suivi de projets, notifications automatiques entre différentes applications.\n\nNous analysons votre besoin pour vous proposer la solution la plus pertinente."
 }, {
-  question: "Combien de temps faut-il pour mettre en place un workflow ?",
-  answer: "La durée dépend de la complexité du projet. Une automatisation simple peut être mise en place en quelques jours seulement. Pour des systèmes plus complexes impliquant plusieurs applications et une logique avancée, le projet peut s'étaler sur une à deux semaines. Nous définissons toujours un calendrier précis après notre premier échange."
-}, {
   question: "Quels sont les avantages concrets pour mon entreprise ?",
   answer: "Les bénéfices sont multiples :\n\nGain de temps : Libérez des heures de travail chaque semaine.\n\nRéduction des coûts : Moins de temps passé sur des tâches manuelles signifie moins de ressources allouées.\n\nFiabilité accrue : Les automatisations ne font pas d'erreurs de saisie ou d'oubli.\n\nMeilleure réactivité : Les processus s'exécutent instantanément, 24h/24 et 7j/7.\n\nConcentration sur la croissance : Votre équipe se focalise sur ce qui compte vraiment : vos clients et votre stratégie."
-}, {
-  question: "Comment se déroule un projet avec Gecko Design ?",
-  answer: "C'est très simple et transparent :\n\nPhase Découverte (Gratuite) : Nous discutons de vos besoins et identifions les processus à automatiser.\n\nProposition & Devis : Je vous envoie une proposition détaillée avec le périmètre, le coût et le calendrier.\n\nConception & Développement : Je construis le workflow sur-mesure.\n\nValidation & Déploiement : Nous testons ensemble la solution avant de la mettre en production.\n\nSupport & Maintenance : Je reste disponible pour m'assurer que tout fonctionne parfaitement."
 }, {
   question: "Pourquoi choisir Gecko Design plutôt qu'une autre solution ?",
   answer: "Gecko Design offre une approche artisanale et 100% sur-mesure. Contrairement aux grandes agences, vous échangez directement avec moi, le concepteur de votre solution. Ma spécialisation dans des outils No Code puissants comme n8n me permet de livrer des solutions robustes, évolutives et parfaitement adaptées à votre écosystème, sans vous enfermer dans des logiciels propriétaires coûteux."
