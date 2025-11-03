@@ -61,7 +61,7 @@ export const AIAgents = () => {
             animationDelay: `${index * 200}ms`
           }}>
                 <div className="flex flex-col items-center text-center">
-                  {agent.image ? <img src={agent.image} alt={agent.name} className="w-16 h-16 mb-6 object-cover" /> : <div className={`w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 ${agent.color}`}>
+                  {agent.image ? <img src={agent.image} alt={agent.name} className="w-12 h-12 mb-6 object-cover" /> : <div className={`w-16 h-16 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mb-6 ${agent.color}`}>
                       <IconComponent className="w-8 h-8" />
                     </div>}
                   
