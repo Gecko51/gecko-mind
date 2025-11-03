@@ -15,7 +15,7 @@ const agents = [{
   name: "Gecko Core",
   icon: TrendingUp,
   image: goalIcon,
-  description: "La stratégie qui aide à générer des leads qualifiés sans dépenser en publicités",
+  description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
   tasks: ["Recherche ciblée de leads", "Outreach LinkedIn automatisé", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
 }, {
