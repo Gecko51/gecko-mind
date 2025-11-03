@@ -86,7 +86,7 @@ export const Testimonials = () => {
             De la surcharge opérationnelle à l'efficacité maximale
           </span>
         </h2>
-        <p className="text-center text-muted-foreground max-w-2xl mx-auto">
+        <p className="text-center text-white max-w-2xl mx-auto">
           Maintenant, ils avancent plus vite et ont l'esprit libéré
         </p>
       </div>
