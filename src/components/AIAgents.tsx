@@ -10,7 +10,7 @@ const agents = [{
   image: linkIcon,
   description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé et économisez 10 heures par semaine",
   color: "text-blue-400",
-  tasks: ["Onboarding client automatisé", "Synchronisation du CRM et des relances", "Gestion de la boite mail professionnelle", "Synchronisation de l'agenda", "Relances automatiques"]
+  tasks: ["Onboarding client automatisé", "Synchronisation du CRM et des relances", "Gestion de la boite mail professionnelle", "Synchronisation de l'agenda"]
 }, {
   name: "Gecko Core",
   icon: TrendingUp,
