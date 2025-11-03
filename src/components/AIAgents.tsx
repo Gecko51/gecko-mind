@@ -3,6 +3,7 @@ import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import linkIcon from "@/assets/link-icon.png";
 import goalIcon from "@/assets/goal-icon.png";
+import starIcon from "@/assets/star-icon.png";
 const agents = [{
   name: "Gecko Hub",
   icon: Users,
@@ -20,7 +21,7 @@ const agents = [{
 }, {
   name: "Gecko Flow",
   icon: Bot,
-  image: linkIcon,
+  image: starIcon,
   description: "Un système qui vous fera économiser des heures chaque semaine sur la création de contenu",
   color: "text-pink-400",
   tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu LinkedIn automatisé", "Interface de suivi et de gestion des interactions"]
