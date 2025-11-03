@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import linkIcon from "@/assets/link-icon.png";
+import goalIcon from "@/assets/goal-icon.png";
 const agents = [{
   name: "Gecko Hub",
   icon: Users,
@@ -12,7 +13,7 @@ const agents = [{
 }, {
   name: "Gecko Core",
   icon: TrendingUp,
-  image: linkIcon,
+  image: goalIcon,
   description: "Un système qui aide à générer des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
   tasks: ["Recherche ciblée de leads", "Outreach LinkedIn automatisé", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
