@@ -52,7 +52,7 @@ export const Results = () => {
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Multipliez vos leads
+              Multipliez vos leads qualifiés
             </span>{" "}
             concrets et mesurables
           </h2>
