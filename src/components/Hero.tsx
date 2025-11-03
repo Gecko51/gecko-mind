@@ -25,9 +25,7 @@ export const Hero = () => {
 
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">
-            <span className="text-white">
-              L'automatisation
-            </span>
+            <span className="text-white">Le système IA</span>
             <br />
             qui libère votre{" "}
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
@@ -46,7 +44,7 @@ export const Hero = () => {
             document.getElementById('ai-agents')?.scrollIntoView({
               behavior: 'smooth'
             });
-          }}>Découvrir le système</Button>
+          }}>Découvrir les systèmes</Button>
             
           </div>
 
