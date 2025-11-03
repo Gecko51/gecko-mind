@@ -45,7 +45,7 @@ export const Mission = () => {
             <h3 className="text-xl font-semibold mb-2 text-foreground">Respecter les règles</h3>
             <p style={{
             color: '#ababab'
-          }}>Conformité RGPD et DPA garantie</p>
+          }}>Conformité RGPD garantie</p>
           </div>
         </div>
       </div>
