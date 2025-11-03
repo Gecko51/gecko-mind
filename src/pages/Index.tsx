@@ -11,10 +11,8 @@ import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
 import { FAQ } from "@/components/FAQ";
 import { Footer } from "@/components/Footer";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main>
         <Hero />
@@ -23,15 +21,13 @@ const Index = () => {
         <Testimonials />
         <Results />
         <Method />
-        <Services />
+        
         <AIAgents />
         <About />
         <Contact />
         <FAQ />
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
