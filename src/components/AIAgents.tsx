@@ -12,7 +12,7 @@ const agents = [{
   color: "text-blue-400",
   tasks: ["Onboarding client automatisé", "Synchronisation du CRM et des relances", "Gestion de la boite mail professionnelle", "Synchronisation de l'agenda", "Relances automatiques"]
 }, {
-  name: "Lili",
+  name: "Gecko Core",
   icon: TrendingUp,
   image: liliImage,
   description: "Un système qui aide à générer des leads qualifiés sans dépenser en publicités",
