@@ -25,7 +25,7 @@ export const Hero = () => {
 
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">
-            <span className="text-white">Le système IA</span>
+            <span className="text-white">La sotution IA</span>
             <br />
             qui libère votre{" "}
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
@@ -35,7 +35,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
-            Un système de tunnel de vente IA ancré sur vos résultats commerciaux.
+            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs avec l'intelligence artificielle.
           </p>
 
           {/* CTA Buttons */}
@@ -44,7 +44,7 @@ export const Hero = () => {
             document.getElementById('ai-agents')?.scrollIntoView({
               behavior: 'smooth'
             });
-          }}>Découvrir le système</Button>
+          }}>Découvrir les systèmes</Button>
             
           </div>
 
