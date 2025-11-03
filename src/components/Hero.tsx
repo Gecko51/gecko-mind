@@ -35,7 +35,7 @@ export const Hero = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
-            Conception et déploiement de workflows sur-mesure pour automatiser vos processus répétitifs avec l'intelligence artificielle.
+            Le système de tunnel de vente IA ancré sur vos résultats commerciaux.
           </p>
 
           {/* CTA Buttons */}
