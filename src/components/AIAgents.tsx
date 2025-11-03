@@ -42,7 +42,7 @@ export const AIAgents = () => {
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-6">
             <Bot className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-white">Nos agents IA</span>
+            <span className="text-sm font-medium text-white">Les systèmes</span>
           </div>
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
