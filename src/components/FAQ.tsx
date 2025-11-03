@@ -7,7 +7,7 @@ const faqData = [{
   question: "Quels sont les avantages concrets pour mon entreprise ?",
   answer: "Les bénéfices sont multiples :\n\nGain de temps : Libérez des heures de travail chaque semaine.\n\nRéduction des coûts : Moins de temps passé sur des tâches manuelles signifie moins de ressources allouées.\n\nFiabilité accrue : Les automatisations ne font pas d'erreurs de saisie ou d'oubli.\n\nMeilleure réactivité : Les processus s'exécutent instantanément, 24h/24 et 7j/7.\n\nConcentration sur la croissance : Votre équipe se focalise sur ce qui compte vraiment : vos clients et votre stratégie."
 }, {
-  question: "Pourquoi choisir Gecko Design plutôt qu'une autre solution ?",
+  question: "Pourquoi choisir Gecko Mind plutôt qu'une autre solution ?",
   answer: "Gecko Design offre une approche artisanale et 100% sur-mesure. Contrairement aux grandes agences, vous échangez directement avec moi, le concepteur de votre solution. Ma spécialisation dans des outils No Code puissants comme n8n me permet de livrer des solutions robustes, évolutives et parfaitement adaptées à votre écosystème, sans vous enfermer dans des logiciels propriétaires coûteux."
 }, {
   question: "Que se passe-t-il si mes besoins évoluent ou si un outil change ?",
