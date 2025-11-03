@@ -19,7 +19,7 @@ const agents = [{
   color: "text-purple-400",
   tasks: ["Recherche ciblée de leads", "Outreach LinkedIn automatisé", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
 }, {
-  name: "Vénus",
+  name: "Gecko Flow",
   icon: Bot,
   image: venusImage,
   description: "Un système qui vous fera économiser des heures chaque semaine sur la création de contenu",
