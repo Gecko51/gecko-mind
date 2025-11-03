@@ -17,7 +17,7 @@ const agents = [{
   image: goalIcon,
   description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
-  tasks: ["Recherche ciblée de leads", "Outreach LinkedIn automatisé", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
+  tasks: ["Recherche ciblée de leads", "Outreach LinkedIn", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
 }, {
   name: "Gecko Flow",
   icon: Bot,
