@@ -1,27 +1,25 @@
 import { Card } from "@/components/ui/card";
 import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import clarkImage from "@/assets/portrait_agent_clark.png";
-import liliImage from "@/assets/portrait_agent_lili.png";
-import venusImage from "@/assets/portrait_agent_venus.png";
+import linkIcon from "@/assets/link-icon.png";
 const agents = [{
   name: "Gecko Hub",
   icon: Users,
-  image: clarkImage,
+  image: linkIcon,
   description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé et économisez 10 heures par semaine",
   color: "text-blue-400",
   tasks: ["Onboarding client automatisé", "Synchronisation du CRM et des relances", "Gestion de la boite mail professionnelle", "Synchronisation de l'agenda", "Relances automatiques"]
 }, {
   name: "Gecko Core",
   icon: TrendingUp,
-  image: liliImage,
+  image: linkIcon,
   description: "Un système qui aide à générer des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
   tasks: ["Recherche ciblée de leads", "Outreach LinkedIn automatisé", "Séquences de prospection prêtes à l'emploi", "Templates sur-mesure, icebreakers et relances"]
 }, {
   name: "Gecko Flow",
   icon: Bot,
-  image: venusImage,
+  image: linkIcon,
   description: "Un système qui vous fera économiser des heures chaque semaine sur la création de contenu",
   color: "text-pink-400",
   tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu LinkedIn automatisé", "Interface de suivi et de gestion des interactions"]
