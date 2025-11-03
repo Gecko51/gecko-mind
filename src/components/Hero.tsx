@@ -46,7 +46,7 @@ export const Hero = () => {
             document.getElementById('ai-agents')?.scrollIntoView({
               behavior: 'smooth'
             });
-          }}>Découvrir les systèmes</Button>
+          }}>Découvrir le système</Button>
             
           </div>
 
