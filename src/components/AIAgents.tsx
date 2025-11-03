@@ -52,7 +52,7 @@ export const AIAgents = () => {
             <span className="text-white">intelligents</span>
           </h2>
           
-          <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">Multipliez vos leads et réduisez les charges de travail répétitives de 60%</p>
+          <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">Multipliez vos leads qualifiés et réduisez les charges de travail répétitives de 60%</p>
         </div>
 
         <div ref={cardsRef} className={`grid lg:grid-cols-3 gap-8 transition-all duration-1000 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
