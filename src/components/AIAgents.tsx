@@ -38,7 +38,7 @@ const agents = [
     name: "Vénus",
     icon: Bot,
     image: venusImage,
-    description: "Agent IA dédié à la création de contenu et à l'analyse des tendances",
+    description: "Un système qui vous fera économiser des heures chaque semaine sur la création de contenu",
     color: "text-pink-400",
     tasks: [
       "Recherche des tendances et hooks viraux",
