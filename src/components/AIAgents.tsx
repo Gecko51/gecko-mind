@@ -5,7 +5,7 @@ import clarkImage from "@/assets/portrait_agent_clark.png";
 import liliImage from "@/assets/portrait_agent_lili.png";
 import venusImage from "@/assets/portrait_agent_venus.png";
 const agents = [{
-  name: "Gecko Hub",
+  name: "Gecko Core",
   icon: Users,
   image: clarkImage,
   description: "De l'onboarding à la relance, transformez votre charge mentale en flux de travail automatisé et économisez 10 heures par semaine",
