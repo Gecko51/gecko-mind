@@ -8,7 +8,7 @@ const benefits = [{
   icon: Target,
   iconImage: tickIcon,
   title: "Réduction des opérations manuelles",
-  description: "Gestion des devis et factures, relances, onboarding de clients ou collaborateurs, reporting"
+  description: "Automatisation des tâches à faible valeur ajoutée et gestion du lead nurturing"
 }, {
   icon: Zap,
   iconImage: arrowIcon,
