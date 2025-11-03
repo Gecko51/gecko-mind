@@ -47,9 +47,8 @@ export const AIAgents = () => {
           
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Rencontrez nos agents
-            </span>{" "}
-            <span className="text-white">intelligents</span>
+              Optimisation du tunnel de vente
+            </span>
           </h2>
           
           <p className="text-lg text-white max-w-3xl mx-auto leading-relaxed">Multipliez vos leads qualifiés et réduisez les charges de travail répétitives de 60%</p>
