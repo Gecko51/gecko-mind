@@ -118,7 +118,7 @@ export const AIAgents = () => {
 
                   {index === 0 && (
                     <div className="mt-6 pt-6 border-t border-border/30">
-                      <p className="text-white/60 text-sm">
+                      <p className="text-white/60 text-lg">
                         Valeur : <span className="line-through">2950€</span>
                       </p>
                     </div>
