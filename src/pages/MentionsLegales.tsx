@@ -87,7 +87,7 @@ const MentionsLegales = () => {
 
         <hr className="my-8 border-border" />
         
-        <p className="text-sm text-muted-foreground"><strong>Dernière mise à jour :</strong> [À compléter avec la date actuelle]</p>
+        <p className="text-sm text-muted-foreground"><strong>Dernière mise à jour :</strong> 11 novembre 2025</p>
       </main>
       <Footer />
     </div>
