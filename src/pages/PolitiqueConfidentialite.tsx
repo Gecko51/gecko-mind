@@ -1,19 +1,15 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-
 const PolitiqueConfidentialite = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main className="container mx-auto px-6 pt-32 pb-16">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-8 text-foreground border-t border-border pt-8">Politique de Confidentialité</h1>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-semibold mb-4 text-foreground">1. Introduction</h2>
-            <p className="mb-4">
-              Gecko Design (ci-après « nous » ou « l'entreprise ») accorde une grande importance à la protection de vos données personnelles. Cette politique de confidentialité explique comment nous traitons vos données lorsque vous visitez notre site gecko-mind.lovable.app.
-            </p>
+            
+            
           </section>
 
           <section className="mb-8">
@@ -161,8 +157,6 @@ const PolitiqueConfidentialite = () => {
         </div>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default PolitiqueConfidentialite;
