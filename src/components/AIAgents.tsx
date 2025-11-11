@@ -24,7 +24,7 @@ const agents = [{
   image: starIcon,
   description: "Une solution qui vous fera économiser des heures chaque semaine sur la création de contenu",
   color: "text-pink-400",
-  tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Interface de suivi et de gestion des interactions"]
+  tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Interface de suivi et de gestion des publications"]
 }];
 export const AIAgents = () => {
   const {
