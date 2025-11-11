@@ -115,6 +115,12 @@ export const AIAgents = () => {
                       ))}
                     </div>
                   )}
+
+                  <div className="mt-6 pt-4 border-t border-border/30">
+                    <p className="text-white/70 text-sm">
+                      Valeur : <span className="line-through">2950€</span>
+                    </p>
+                  </div>
                 </div>
 
                 <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-secondary/5 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
