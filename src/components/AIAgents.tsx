@@ -30,6 +30,7 @@ const agents = [
       "Recherche ciblée de leads",
       "Outreach automatisé",
       "Séquences de prospection prêtes à l'emploi",
+      "Lead magnet avec formulaire d'inscription",
       "Templates sur-mesure, icebreakers et relances",
     ],
   },
