@@ -13,9 +13,9 @@ export const Footer = () => {
             <Link to="/mentions-legales" className="transition-colors" style={{
             color: '#ababab'
           }} onMouseEnter={e => (e.target as HTMLElement).style.color = '#fbb830'} onMouseLeave={e => (e.target as HTMLElement).style.color = '#ababab'}>Mentions légales</Link>
-            <a href="#" className="transition-colors" style={{
+            <Link to="/politique-confidentialite" className="transition-colors" style={{
             color: '#ababab'
-          }} onMouseEnter={e => (e.target as HTMLElement).style.color = '#fbb830'} onMouseLeave={e => (e.target as HTMLElement).style.color = '#ababab'}>Politique de confidentialité</a>
+          }} onMouseEnter={e => (e.target as HTMLElement).style.color = '#fbb830'} onMouseLeave={e => (e.target as HTMLElement).style.color = '#ababab'}>Politique de confidentialité</Link>
             </div>
         </div>
       </div>
