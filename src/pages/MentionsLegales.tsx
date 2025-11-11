@@ -21,7 +21,7 @@ const MentionsLegales = () => {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-foreground">2. Hébergement</h2>
           <p className="mb-2">Le site est hébergé par :</p>
-          <p className="mb-2"><strong>Prestataire :</strong> Lovable</p>
+          <p className="mb-2"><strong>Prestataire :</strong> Lovable, Pinetree AB, Klarabergsviadukten 63, 111 64 Stockholm, Suède</p>
           <p className="mb-2"><strong>Service :</strong> Plateforme de création et d'hébergement de sites web</p>
         </section>
 
