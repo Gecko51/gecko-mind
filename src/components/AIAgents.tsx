@@ -146,6 +146,12 @@ export const AIAgents = () => {
             );
           })}
         </div>
+
+        <div className="text-center mt-12">
+          <p className="text-2xl font-bold text-white">
+            Total : <span className="text-primary">5640 €</span>
+          </p>
+        </div>
       </div>
     </section>
   );
