@@ -149,7 +149,7 @@ export const AIAgents = () => {
 
         <div className="text-center mt-12">
           <p className="text-2xl font-bold text-white">
-            Tarif : <span className="text-primary">2950 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
+            Tarif : <span className="text-primary">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
         </div>
       </div>
