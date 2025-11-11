@@ -18,7 +18,7 @@ const PolitiqueConfidentialite = () => {
             <p className="mb-2">8 place Catherine Vautrin</p>
             <p className="mb-2">51400 Mourmelon-le-Grand</p>
             <p className="mb-4">SIRET : 92893696200010</p>
-            <p>Vous pouvez nous contacter à : [À compléter avec votre adresse email]</p>
+            
           </section>
 
           <section className="mb-8">
@@ -100,7 +100,7 @@ const PolitiqueConfidentialite = () => {
 
             <h3 className="text-xl font-semibold mb-3 mt-4 text-foreground">Exercer vos droits</h3>
             <p className="mb-2">Pour exercer l'un de ces droits, veuillez nous envoyer une demande écrite à :</p>
-            <p className="mb-2"><strong>E-mail :</strong> [À compléter avec votre adresse email]</p>
+            
             <p className="mb-4"><strong>Adresse postale :</strong> 8 place Catherine Vautrin, 51400 Mourmelon-le-Grand</p>
             <p>Nous traiterons votre demande dans un délai de <strong>30 jours</strong> à compter de sa réception. Si vous le souhaitez, vous pouvez joindre une copie de votre pièce d'identité pour confirmer votre identité.</p>
           </section>
@@ -146,7 +146,7 @@ const PolitiqueConfidentialite = () => {
             <p className="mb-1"><strong>Gecko Design</strong></p>
             <p className="mb-1">8 place Catherine Vautrin</p>
             <p className="mb-1">51400 Mourmelon-le-Grand</p>
-            <p className="mb-4">E-mail : [À compléter avec votre adresse email]</p>
+            
           </section>
 
           <div className="border-t border-border pt-8 mt-12">
