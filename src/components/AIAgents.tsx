@@ -14,6 +14,7 @@ const agents = [
     color: "text-blue-400",
     tasks: [
       "Onboarding client automatisé",
+      "CRM sur-mesure",
       "Synchronisation du CRM et des relances",
       "Gestion de la boite mail professionnelle",
       "Synchronisation de l'agenda",
