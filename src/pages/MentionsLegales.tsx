@@ -15,7 +15,7 @@ const MentionsLegales = () => {
           <p className="mb-2"><strong>Adresse du siège social :</strong> 8 place Catherine Vautrin, 51400 Mourmelon-le-Grand</p>
           <p className="mb-2"><strong>Numéro SIRET :</strong> 92893696200010</p>
           <p className="mb-2"><strong>RCS :</strong> Châlons-en-Champagne 928936962</p>
-          <p className="mb-2"><strong>Directeur de la publication :</strong> Gecko Design</p>
+          <p className="mb-2"><strong>Directeur de la publication :</strong> Gay Guillaume</p>
         </section>
 
         <section className="mb-8">
