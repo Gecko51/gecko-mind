@@ -8,8 +8,8 @@ const PolitiqueConfidentialite = () => {
           <h1 className="text-4xl font-bold mb-8 text-foreground border-t border-border pt-8">Politique de Confidentialité</h1>
 
           <section className="mb-8">
-            
-            
+            <h2 className="text-2xl font-semibold mb-4 text-foreground">1. Introduction</h2>
+            <p className="mb-4">La présente Politique de Confidentialité décrit comment Gecko Design collecte, utilise et protège vos données personnelles lorsque vous visitez notre site web.</p>
           </section>
 
           <section className="mb-8">
