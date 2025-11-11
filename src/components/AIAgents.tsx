@@ -45,6 +45,7 @@ const agents = [
       "Gestion complète du calendrier éditorial",
       "Création de contenu automatisé",
       "Interface de suivi et de gestion des publications",
+      "Accompagnement stratégique pour mener vers l'offre",
     ],
   },
 ];
