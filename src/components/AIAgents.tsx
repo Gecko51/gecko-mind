@@ -154,14 +154,22 @@ export const AIAgents = () => {
             Tarif du système complet : <span className="text-primary">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
           <p className="text-white/70 mt-2">paiement en 1x, 2x, 3x</p>
-          <Button 
-            variant="hero" 
-            size="lg" 
-            className="mt-6"
-            onClick={() => window.open('https://buy.stripe.com/dRm9ASfBa9iX7r4887bbG00', '_blank')}
-          >
-            J'accède au système
-          </Button>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-6">
+            <Button 
+              variant="hero" 
+              size="lg"
+              onClick={() => window.open('https://buy.stripe.com/dRm9ASfBa9iX7r4887bbG00', '_blank')}
+            >
+              J'accède au système
+            </Button>
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}
+            >
+              Je veux une formule sur-mesure
+            </Button>
+          </div>
         </div>
       </div>
     </section>
