@@ -6,7 +6,7 @@ const MentionsLegales = () => {
     <div className="min-h-screen bg-background">
       <Header />
       <main className="max-w-4xl mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-8 text-foreground">Mentions Légales</h1>
+        <h1 className="text-4xl font-bold mb-8 text-foreground border-t border-border pt-8">Mentions Légales</h1>
         
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-foreground">1. Responsable du site</h2>
