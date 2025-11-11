@@ -5,18 +5,14 @@ import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
 import airtableLogo from "@/assets/airtable-logo.png";
 export const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero" />
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `url(${heroImage})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
+      <div className="absolute inset-0" style={{
+      backgroundImage: `url(${heroImage})`,
+      backgroundSize: "cover",
+      backgroundPosition: "center"
+    }} />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pt-8 text-center">
@@ -36,21 +32,15 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
-            Un système de tunnel de vente IA ancré sur vos résultats commerciaux.
-          </p>
+          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">Automatisez votre prospection, vos tunnels de vente et votre création de contenu sans effort</p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button
-              variant="hero"
-              size="lg"
-              onClick={() => {
-                document.getElementById("ai-agents")?.scrollIntoView({
-                  behavior: "smooth",
-                });
-              }}
-            >
+            <Button variant="hero" size="lg" onClick={() => {
+            document.getElementById("ai-agents")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}>
               Découvrir le système
             </Button>
           </div>
@@ -59,12 +49,8 @@ export const Hero = () => {
 
       {/* Floating elements */}
       <div className="absolute top-1/4 left-10 w-20 h-20 bg-primary/20 rounded-full blur-xl animate-float" />
-      <div
-        className="absolute bottom-1/4 right-10 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-float"
-        style={{
-          animationDelay: "1s",
-        }}
-      />
-    </section>
-  );
+      <div className="absolute bottom-1/4 right-10 w-32 h-32 bg-secondary/20 rounded-full blur-xl animate-float" style={{
+      animationDelay: "1s"
+    }} />
+    </section>;
 };
