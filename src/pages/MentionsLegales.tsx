@@ -1,9 +1,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-
 const MentionsLegales = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       <Header />
       <main className="max-w-4xl mx-auto px-4 py-16">
         <h1 className="text-4xl font-bold mb-8 text-foreground">Mentions Légales</h1>
@@ -15,7 +13,7 @@ const MentionsLegales = () => {
           <p className="mb-2"><strong>Adresse du siège social :</strong> 8 place Catherine Vautrin, 51400 Mourmelon-le-Grand</p>
           <p className="mb-2"><strong>Numéro SIRET :</strong> 92893696200010</p>
           <p className="mb-2"><strong>RCS :</strong> Châlons-en-Champagne 928936962</p>
-          <p className="mb-2"><strong>Directeur de la publication :</strong> Gecko Design</p>
+          <p className="mb-2"><strong>Directeur de la publication :</strong>Directeur de la publication : Gay Guillaume</p>
         </section>
 
         <section className="mb-8">
@@ -90,8 +88,6 @@ const MentionsLegales = () => {
         <p className="text-sm text-muted-foreground"><strong>Dernière mise à jour :</strong> [À compléter avec la date actuelle]</p>
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default MentionsLegales;
