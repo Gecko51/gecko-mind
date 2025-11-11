@@ -24,8 +24,7 @@ export const Hero = () => {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">Le système IA
-qui pilote votre marketing potentiel<span className="text-white">Le système IA</span>
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">Le système IA qui pilote votre marketing potentiel<span className="text-white">Le système IA</span>
             <br />
             qui libère votre{" "}
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
