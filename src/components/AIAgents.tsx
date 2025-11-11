@@ -119,7 +119,7 @@ export const AIAgents = () => {
                   {index === 0 && (
                     <div className="mt-6 pt-6 border-t border-border/30">
                       <p className="text-white/60 text-lg">
-                        Valeur : <span className="line-through">2950€</span>
+                        Valeur : <span className="font-bold">2950€</span>
                       </p>
                     </div>
                   )}
@@ -127,7 +127,7 @@ export const AIAgents = () => {
                   {index === 1 && (
                     <div className="mt-6 pt-6 border-t border-border/30">
                       <p className="text-white/60 text-lg">
-                        Valeur : <span className="line-through">1495€</span>
+                        Valeur : <span className="font-bold">1495€</span>
                       </p>
                     </div>
                   )}
@@ -135,7 +135,7 @@ export const AIAgents = () => {
                   {index === 2 && (
                     <div className="mt-6 pt-6 border-t border-border/30">
                       <p className="text-white/60 text-lg">
-                        Valeur : <span className="line-through">1195€</span>
+                        Valeur : <span className="font-bold">1195€</span>
                       </p>
                     </div>
                   )}
