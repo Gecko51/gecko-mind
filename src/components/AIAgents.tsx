@@ -1,4 +1,5 @@
 import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import linkIcon from "@/assets/link-icon.png";
@@ -153,6 +154,14 @@ export const AIAgents = () => {
             Tarif du système complet : <span className="text-primary">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
           <p className="text-white/70 mt-2">paiement en 1x, 2x, 3x</p>
+          <Button 
+            variant="hero" 
+            size="lg" 
+            className="mt-6"
+            onClick={() => window.open('https://buy.stripe.com/dRm9ASfBa9iX7r4887bbG00', '_blank')}
+          >
+            J'accède au système
+          </Button>
         </div>
       </div>
     </section>
