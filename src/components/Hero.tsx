@@ -29,7 +29,7 @@ export const Hero = () => {
 
           {/* Main headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">
-            Le système IA qui pilote votre marketing de A à Z
+            Le système IA qui pilote votre marketing
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">de A à Z</span>
           </h1>
 
