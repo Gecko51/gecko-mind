@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Linkedin, MessageCircle, Target, ArrowRight } from "lucide-react";
-import profileImage from "@/assets/profile-guillaume.webp";
+import profileImage from "@/assets/profile-guillaume-new.png";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 export const About = () => {
   const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
