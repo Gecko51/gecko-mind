@@ -52,6 +52,12 @@ export const FAQ = () => {
               </AccordionItem>)}
           </Accordion>
         </div>
+        
+        <div className="text-center mt-12">
+          <p className="text-foreground/60 text-sm">
+            Made with 💛 by Gecko
+          </p>
+        </div>
       </div>
     </section>;
 };
