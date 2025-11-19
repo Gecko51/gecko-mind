@@ -42,7 +42,7 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-8">
             <Bot className="w-4 h-4 text-primary" />
-            <span className="text-sm font-bold">Solutions IA</span>
+            <span className="text-sm font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">Solutions IA</span>
           </div>
 
           {/* Main headline */}
