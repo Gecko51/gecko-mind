@@ -15,9 +15,16 @@ const faqData = [{
   answer: "C'est une excellente question ! L'avantage des outils que j'utilise est leur flexibilité. Votre workflow est conçu pour être évolutif. Si vos processus changent ou si une mise à jour est nécessaire, il est tout à fait possible de modifier et d'adapter l'automatisation. La maintenance est simple et nous pouvons prévoir ensemble les ajustements futurs."
 }];
 export const FAQ = () => {
-  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
-  const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation({ threshold: 0.2 });
-  
+  const {
+    ref: titleRef,
+    isVisible: titleVisible
+  } = useScrollAnimation();
+  const {
+    ref: contentRef,
+    isVisible: contentVisible
+  } = useScrollAnimation({
+    threshold: 0.2
+  });
   return <section className="py-20 bg-black">
       <div className="container mx-auto px-6">
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -27,7 +34,7 @@ export const FAQ = () => {
             </span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto text-foreground">
-            Automatisation & ROI : Tout pour prendre la bonne décision
+            Automatisation & ROI, tout pour prendre la bonne décision
           </p>
           <div className="mt-6">
             <Button asChild className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow-primary">
