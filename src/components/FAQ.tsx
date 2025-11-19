@@ -23,7 +23,7 @@ export const FAQ = () => {
             </span>
           </h2>
           <p className="text-lg max-w-2xl mx-auto text-foreground">
-            Tout ce que vous devez savoir sur nos services d'automatisation et workflows sur-mesure
+            Automatisation & ROI : Tout pour prendre la bonne décision
           </p>
           <div className="mt-6">
             <Button asChild className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow-primary">
