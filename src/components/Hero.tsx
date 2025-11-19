@@ -4,7 +4,25 @@ import heroImage from "@/assets/hero-particles.jpg";
 import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
 import airtableLogo from "@/assets/airtable-logo.png";
+import { useState } from "react";
+
 export const Hero = () => {
+  const [rotation, setRotation] = useState({ x: 0, y: 0 });
+
+  const handleMouseMove = (e: React.MouseEvent<HTMLHeadingElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const y = e.clientY - rect.top;
+    const centerX = rect.width / 2;
+    const centerY = rect.height / 2;
+    const rotateX = ((y - centerY) / centerY) * -10;
+    const rotateY = ((x - centerX) / centerX) * 10;
+    setRotation({ x: rotateX, y: rotateY });
+  };
+
+  const handleMouseLeave = () => {
+    setRotation({ x: 0, y: 0 });
+  };
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -28,7 +46,15 @@ export const Hero = () => {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug">
+          <h1 
+            className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug cursor-pointer transition-transform duration-200 ease-out"
+            onMouseMove={handleMouseMove}
+            onMouseLeave={handleMouseLeave}
+            style={{
+              transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
+              transformStyle: "preserve-3d",
+            }}
+          >
             Le système IA qui pilote votre marketing
             <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"> de A à Z</span>
           </h1>
