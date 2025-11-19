@@ -1,5 +1,6 @@
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Button } from "@/components/ui/button";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const faqData = [{
   question: "Combien de temps pour observer les premiers résultats ?",
   answer: "De mon expérience, le temps nécessaire pour que vous puissiez constater les premiers retours dépendra principalement de la maturité de votre entreprise et de votre offre.\n\nOn distingue généralement deux scénarios :\n\nVotre entreprise a déjà un \"Product-Market Fit\" (offre validée) :\nSi votre offre répond à une demande claire, nous observons des résultats très rapides. Concrètement, vos prospects répondent et planifient des rendez-vous dans les premières semaines.\n\nVous démarrez ou votre offre n'est pas encore validée : \nSi vous êtes en phase de lancement, la croissance est logiquement plus progressive, le temps que le marché comprenne et valide votre proposition de valeur, entre 1 à 3 mois."
@@ -14,9 +15,12 @@ const faqData = [{
   answer: "C'est une excellente question ! L'avantage des outils que j'utilise est leur flexibilité. Votre workflow est conçu pour être évolutif. Si vos processus changent ou si une mise à jour est nécessaire, il est tout à fait possible de modifier et d'adapter l'automatisation. La maintenance est simple et nous pouvons prévoir ensemble les ajustements futurs."
 }];
 export const FAQ = () => {
+  const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
+  const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation({ threshold: 0.2 });
+  
   return <section className="py-20 bg-black">
       <div className="container mx-auto px-6">
-        <div className="text-center mb-16">
+        <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
               Questions Fréquentes
@@ -32,7 +36,7 @@ export const FAQ = () => {
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto">
+        <div ref={contentRef} className={`max-w-4xl mx-auto transition-all duration-700 ${contentVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <Accordion type="single" collapsible className="space-y-4">
             {faqData.map((faq, index) => <AccordionItem key={index} value={`item-${index}`} className="bg-card border border-border rounded-lg px-6">
                 <AccordionTrigger className="text-left text-lg font-semibold hover:no-underline py-6">
