@@ -60,7 +60,7 @@ export const Hero = () => {
           </h1>
 
           {/* Subtitle */}
-          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-white">
+          <p className="text-lg md:text-xl mb-10 max-w-3xl mx-auto leading-relaxed text-foreground/80">
             Automatisez votre prospection, vos tunnels de vente et votre création de contenu sans effort
           </p>
 
