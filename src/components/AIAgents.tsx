@@ -126,7 +126,7 @@ export const AIAgents = () => {
             </ul>
           </div>
 
-          <div className="mb-8 text-left max-w-3xl mx-auto">
+          <div className="mb-8 text-center max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold text-white mb-4">En bonus :</h3>
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-3">
