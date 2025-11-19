@@ -104,6 +104,46 @@ export const AIAgents = () => {
         </div>
 
         <div className="text-center mt-12">
+          <div className="mb-8 text-left max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold text-white mb-4">Ce que j'installe pour vous :</h3>
+            <ul className="space-y-2 text-white/90">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Installation et configuration complète de N8N</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>8 workflows N8N pour votre tunnel de vente directement connecté à vos outils</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>1 CRM sur-mesure avec interface dynamique</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>1 interface de gestion et de suivi</span>
+              </li>
+            </ul>
+          </div>
+
+          <div className="mb-8 text-left max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold text-white mb-4">En bonus :</h3>
+            <ul className="space-y-2 text-white/90">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Un espace personnel Notion contenant tous les processus détaillés et les prompts</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Un groupe privé WhatsApp pour des conseils illimités pendant 1 mois</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>3 calls stratégiques de 45 minutes pour la mise en place du système et la prise en main</span>
+              </li>
+            </ul>
+          </div>
+
           <p className="text-2xl font-bold text-white">
             Tarif du système complet : <span className="text-primary">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
