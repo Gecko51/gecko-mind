@@ -23,7 +23,7 @@ const agents = [{
   name: "Gecko Flow",
   icon: Bot,
   image: starIcon,
-  description: "Une solution qui vous fera économiser des heures chaque semaine sur la création de contenu",
+  description: "Une solution qui vous fera économiser des heures chaque semaine sur la création de contenu et le gain en notoriété",
   color: "text-pink-400",
   tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Interface de suivi et de gestion des publications", "Accompagnement stratégique pour mener vers l'offre"]
 }];
