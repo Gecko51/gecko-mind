@@ -135,7 +135,7 @@ export const AIAgents = () => {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Un groupe privé WhatsApp pour des conseils illimités pendant 1 mois</span>
+                <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
