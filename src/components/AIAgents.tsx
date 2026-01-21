@@ -116,7 +116,7 @@ export const AIAgents = () => {
             <ul className="space-y-3 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Les Mind Maps et Flowcharts de tous mes process internes.</span>
+                <span>Les Mind Maps et Flowcharts de tous mes process internes</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
