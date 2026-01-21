@@ -123,8 +123,8 @@ export const AIAgents = () => {
                 <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>3 calls stratégiques de 45 minutes pour la mise en place du système et la prise en main</span>
+                
+                
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
