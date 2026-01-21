@@ -71,7 +71,7 @@ export const About = () => {
             ref={cardRef}
             className={`space-y-6 transition-all duration-700 ${cardVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-8"}`}
           >
-            <Card className="p-8 bg-gradient-card border-border/50 backdrop-blur-sm">
+            <Card className="p-8 bg-black/40 border-border/50 backdrop-blur-md">
               <div className="text-center space-y-6">
                 <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-6">
                   <img
