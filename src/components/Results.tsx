@@ -23,7 +23,7 @@ const metrics = [{
   icon: Clock,
   iconImage: favouriteIcon,
   title: "Réactivité client",
-  description: "3 fois plus de réactivité sur les interactions client",
+  description: "3 fois plus de réactivité sur les interactions client grâce à l'authenticité de la personnalisation",
   metric: "3x",
   detail: "Augmentation de la fidélité client et de la satisfaction"
 }];
