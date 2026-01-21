@@ -9,7 +9,7 @@ const metrics = [{
   icon: TrendingUp,
   iconImage: boltIcon,
   title: "Efficacité opérationnelle",
-  description: "Augmentation significative de l'efficacité opérationnelle",
+  description: "Votre pipeline se remplit tout seul. L'IA gère la qualification et la relance, vous restez concentré sur le closing",
   metric: "+70%",
   detail: "Moins de tâches manuelles sur votre pipeline"
 }, {
