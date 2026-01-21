@@ -81,14 +81,10 @@ export const AIAgents = () => {
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>CRM sur-mesure avec interface dynamique</span>
               </li>
+              
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>
-              </span>
-              </li>
-              <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Interface de gestion et de suivi</span>
+                <span>Interface de gestion et de suivi du pipeline</span>
               </li>
             </ul>
           </div>
