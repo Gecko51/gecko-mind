@@ -25,7 +25,7 @@ export const Mission = () => {
             <h3 className="text-xl font-semibold mb-2 text-foreground">Générer du chiffre</h3>
             <p style={{
             color: '#ababab'
-          }}>Workflows qui contribuent directement à vos revenus</p>
+          }}>Des workflows qui contribuent directement à vos revenus</p>
           </div>
 
           <div className="text-center group">
