@@ -45,8 +45,8 @@ export const ServiceDetails = () => {
           </h2>
 
           <p className="text-lg max-w-4xl mx-auto leading-relaxed text-foreground">
-            La croissance manuelle a des limites physiques. L'automatisation n'en a aucune.   Transformez vos processus
-            actuels en un moteur capable de gérer 10x plus de volume, sans effort supplémentaire.
+            La croissance manuelle a des limites physiques. L'automatisation n'en a aucune. <br> </br>Transformez vos
+            processus actuels en un moteur capable de gérer 10x plus de volume, sans effort supplémentaire.
           </p>
         </div>
 
