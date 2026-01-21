@@ -49,7 +49,7 @@ export const Hero = () => {
           </div>
 
           {/* Main headline */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug cursor-pointer transition-transform duration-200 ease-out" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug cursor-pointer transition-transform duration-200 ease-out bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-8 py-6 shadow-lg inline-block" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{
           transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
           transformStyle: "preserve-3d"
         }}>
