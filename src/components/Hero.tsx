@@ -45,7 +45,7 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-4 py-2 mb-8 shadow-lg">
             <Bot className="w-4 h-4 text-primary" />
-            <span className="text-sm font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+            <span className="text-sm font-bold text-white">
               AI Automation
             </span>
           </div>
