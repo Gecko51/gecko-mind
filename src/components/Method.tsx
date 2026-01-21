@@ -4,6 +4,7 @@ import targetIcon from "@/assets/target-icon.png";
 import cubeIcon from "@/assets/cube-icon.png";
 import chevronIcon from "@/assets/chevron-icon.png";
 import exchangeIcon from "@/assets/exchange-icon.png";
+import methodBg from "@/assets/method-bg.jpg";
 const steps = [{
   icon: targetIcon,
   title: "Audit de vos process & data",
@@ -36,8 +37,16 @@ export const Method = () => {
   } = useScrollAnimation({
     threshold: 0.2
   });
-  return <section className="py-20 bg-black">
-      <div className="container mx-auto px-6">
+  return <section className="py-20 relative overflow-hidden">
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center" 
+        style={{ backgroundImage: `url(${methodBg})` }} 
+      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/30" />
+      
+      <div className="container mx-auto px-6 relative z-10">
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="inline-flex items-center gap-2 bg-card/50 backdrop-blur-sm border border-border rounded-full px-4 py-2 mb-6">
             <span className="text-sm font-medium">Ma méthode</span>
