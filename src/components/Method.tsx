@@ -12,7 +12,7 @@ const steps = [{
   step: "01"
 }, {
   icon: cubeIcon,
-  title: "Prototype fonctionnel sous 10 jours",
+  title: "Prototype fonctionnel sous 7 jours",
   description: "pour que vous constatiez les bénéfices rapidement",
   step: "02"
 }, {
