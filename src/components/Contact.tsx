@@ -27,10 +27,7 @@ export const Contact = () => {
               </span>{" "}
               votre productivité ?
             </h2>
-            <p className="text-lg max-w-2xl mx-auto text-white">
-              Discutons de vos besoins d'automatisation et découvrons ensemble comment 
-              libérer le potentiel de votre équipe avec des solutions IA sur-mesure.
-            </p>
+            <p className="text-lg max-w-2xl mx-auto text-white">Discutons de vos besoins d'automatisation et découvrons ensemble comment libérer le potentiel de votre activité avec un système IA.</p>
           </div>
 
           <div ref={cardsRef} className={`flex justify-center transition-all duration-700 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
@@ -75,12 +72,7 @@ export const Contact = () => {
                   </div>
                 </div>
 
-                <Button 
-                  variant="hero" 
-                  size="lg" 
-                  className="w-full group"
-                  onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}
-                >
+                <Button variant="hero" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/guillaume-gay/30min', '_blank')}>
                   Demander une démonstration
                 </Button>
               </div>
