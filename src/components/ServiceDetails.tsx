@@ -4,6 +4,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import arrowIcon from "@/assets/arrow-icon.png";
 import clockIcon from "@/assets/clock-icon.png";
 import tickIcon from "@/assets/tick-icon.png";
+
 const benefits = [
   {
     icon: Target,
@@ -24,12 +25,14 @@ const benefits = [
     description: "Des heures chaque semaine à réinvestir dans la stratégie, l'innovation et la satisfaction client",
   },
 ];
+
 export const ServiceDetails = () => {
   const { ref: titleRef, isVisible: titleVisible } = useScrollAnimation();
   const { ref: cardsRef, isVisible: cardsVisible } = useScrollAnimation({
     threshold: 0.2,
   });
   const { ref: ctaRef, isVisible: ctaVisible } = useScrollAnimation();
+  
   return (
     <section className="pt-20 pb-10 bg-black">
       <div className="container mx-auto px-6">
@@ -45,8 +48,9 @@ export const ServiceDetails = () => {
           </h2>
 
           <p className="text-lg max-w-4xl mx-auto leading-relaxed text-foreground">
-            La croissance manuelle a des limites physiques. L'automatisation n'en a aucune. <br> </br>Transformez vos
-            processus actuels en un moteur capable de gérer 10x plus de volume, sans effort supplémentaire.
+            La croissance manuelle a des limites physiques. L'automatisation n'en a aucune.
+            <br />
+            Transformez vos processus actuels en un moteur capable de gérer 10x plus de volume, sans effort supplémentaire.
           </p>
         </div>
 
