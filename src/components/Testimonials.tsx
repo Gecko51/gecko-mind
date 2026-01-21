@@ -80,7 +80,7 @@ export const Testimonials = () => {
             Ils le pilotent !
           </span>
         </h2>
-        <p className="text-center text-white max-w-2xl mx-auto">Ils ne travaillent pas plus dur que leurs concurrents. Ils sont juste mieux équipés. Découvrez comment ils ont hacké leur croissance.</p>
+        <p className="text-lg text-center text-foreground max-w-2xl mx-auto leading-relaxed">Ils ne travaillent pas plus dur que leurs concurrents. Ils sont juste mieux équipés. Découvrez comment ils ont hacké leur croissance.</p>
       </div>
 
       <div className="relative z-10 overflow-hidden">
