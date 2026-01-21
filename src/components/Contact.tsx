@@ -21,11 +21,10 @@ export const Contact = () => {
         <div className="max-w-4xl mx-auto">
           <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Prêt à{" "}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                transformer
-              </span>{" "}
-              votre productivité ?
+              Ne devinez plus. Obtenez votre{" "}
+              <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+                feuille de route IA
+              </span>
             </h2>
             <p className="text-lg max-w-2xl mx-auto text-white">Discutons de vos besoins d'automatisation et découvrons ensemble comment libérer le potentiel de votre activité avec un système IA.</p>
           </div>
