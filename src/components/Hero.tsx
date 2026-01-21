@@ -52,9 +52,7 @@ export const Hero = () => {
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-snug cursor-pointer transition-transform duration-200 ease-out" onMouseMove={handleMouseMove} onMouseLeave={handleMouseLeave} style={{
           transform: `perspective(1000px) rotateX(${rotation.x}deg) rotateY(${rotation.y}deg)`,
           transformStyle: "preserve-3d"
-        }}>
-            Le système IA qui pilote votre marketing
-            <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"> de A à Z</span>
+        }}>Votre meilleure recrue de A à Z<span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"> de A à Z</span>
           </h1>
 
           {/* Subtitle */}
