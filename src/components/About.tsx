@@ -29,7 +29,10 @@ export const About = () => {
               </h2>
               <p className="text-lg leading-relaxed" style={{
               color: "#ababab"
-            }}>Fondateur de Gecko Mind, je me positionne comme architecte et stratège des automatisations déployées, avec une expertise reconnue sur les Agents IA et les solutions d'intelligence artificielle.
+            }}>Fondateur de Gecko Mind, je me positionne comme architecte et stratège des automatisations déployées, avec une expertise reconnue sur les Agents IA et les solutions d'intelligence artificielle. 
+
+
+Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés. Passionné par l'innovation utile, je conçois des solutions concrètes qui libèrent du temps, optimisent le suivi commercial, et transforment votre quotidien opérationnel.
 
 Mon rôle ? Transformer vos process métiers en moteurs de croissance automatisés.
 
