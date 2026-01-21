@@ -29,13 +29,9 @@ export const FAQ = () => {
       <div className="container mx-auto px-6">
         <div ref={titleRef} className={`text-center mb-16 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Questions Fréquentes
-            </span>
+            <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">On lève les derniers doutes ?</span>
           </h2>
-          <p className="text-lg max-w-2xl mx-auto text-foreground">
-            Automatisation & ROI, tout pour prendre la bonne décision
-          </p>
+          <p className="text-lg max-w-2xl mx-auto text-foreground">Vous hésitez encore ? Voici les réponses transparentes aux questions qui vous retiennent.</p>
           <div className="mt-6">
             <Button asChild className="bg-gradient-primary hover:opacity-90 text-primary-foreground shadow-glow-primary">
               
