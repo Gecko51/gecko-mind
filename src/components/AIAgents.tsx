@@ -111,6 +111,28 @@ export const AIAgents = () => {
             </ul>
           </div>
 
+          <div className="mb-8 text-center max-w-3xl mx-auto">
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">En bonus :</h3>
+            <ul className="space-y-2 text-white/90">
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>3 calls stratégiques de 45 minutes pour la mise en place du système et la prise en main</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <span>1 mois de maintenance du système</span>
+              </li>
+            </ul>
+          </div>
+
           <p className="text-2xl font-bold text-white pt-8">
             Tarif du système complet : <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
