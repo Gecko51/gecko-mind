@@ -73,8 +73,7 @@ const MentionsLegales = () => {
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4 text-foreground">8. Coordonnées pour nous contacter</h2>
-          <p className="mb-2"><strong>E-mail :</strong>
-        </p>
+          <p className="mb-2"><strong>E-mail :</strong> contact@gecko-mind.com</p>
           <p className="mb-2"><strong>Adresse postale :</strong> 8 place Catherine Vautrin, 51400 Mourmelon-le-Grand</p>
         </section>
 
