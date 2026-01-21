@@ -6,26 +6,12 @@ import linkIcon from "@/assets/link-icon.png";
 import goalIcon from "@/assets/goal-icon.png";
 import starIcon from "@/assets/star-icon.png";
 const agents = [{
-  name: "Gecko Hub",
-  icon: Users,
-  image: linkIcon,
-  description: "Transformez votre charge mentale en flux de travail automatisé et économisez 10 heures par semaine",
-  color: "text-blue-400",
-  tasks: ["Onboarding client automatisé", "CRM sur-mesure", "Synchronisation du CRM et des relances", "Gestion de la boite mail professionnelle", "Synchronisation de l'agenda"]
-}, {
   name: "Gecko Core",
   icon: TrendingUp,
   image: goalIcon,
   description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
-  tasks: ["Recherche ciblée de leads", "Outreach automatisé", "Séquences de prospection prêtes à l'emploi", "Lead magnet avec formulaire d'inscription", "Templates sur-mesure, icebreakers et relances"]
-}, {
-  name: "Gecko Flow",
-  icon: Bot,
-  image: starIcon,
-  description: "Une solution qui vous fera économiser des heures chaque semaine sur la création de contenu et le gain en notoriété",
-  color: "text-pink-400",
-  tasks: ["Recherche des tendances et hooks viraux", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Interface de suivi et de gestion des publications", "Accompagnement stratégique pour mener vers l'offre"]
+  tasks: ["Onboarding leads/client automatisé", "CRM sur-mesure", "Synchronisation de l'agenda", "Recherche ciblée de leads", "Outreach automatisé", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Accompagnement stratégique pour mener vers l'offre"]
 }];
 export const AIAgents = () => {
   const {
@@ -57,10 +43,10 @@ export const AIAgents = () => {
           </p>
         </div>
 
-        <div ref={cardsRef} className={`grid lg:grid-cols-3 gap-8 transition-all duration-1000 ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
+        <div ref={cardsRef} className={`flex justify-center transition-all duration-1000 ${cardsVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}>
           {agents.map((agent, index) => {
           const IconComponent = agent.icon;
-          return <Card key={index} className={`relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 ${cardsVisible ? "animate-fade-in" : ""}`} style={{
+          return <Card key={index} className={`relative p-8 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 max-w-md ${cardsVisible ? "animate-fade-in" : ""}`} style={{
             animationDelay: `${index * 200}ms`
           }}>
                 <div className="flex flex-col items-center text-center">
@@ -77,24 +63,6 @@ export const AIAgents = () => {
                           <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
                           <span className="text-sm text-white/80">{task}</span>
                         </div>)}
-                    </div>}
-
-                  {index === 0 && <div className="mt-6 pt-6 border-t border-border/30">
-                      <p className="text-white/60 text-lg">
-                        Valeur : <span className="font-bold">2950€</span>
-                      </p>
-                    </div>}
-
-                  {index === 1 && <div className="mt-6 pt-6 border-t border-border/30">
-                      <p className="text-white/60 text-lg">
-                        Valeur : <span className="font-bold">1495€</span>
-                      </p>
-                    </div>}
-
-                  {index === 2 && <div className="mt-6 pt-6 border-t border-border/30">
-                      <p className="text-white/60 text-lg">
-                        Valeur : <span className="font-bold">1195€</span>
-                      </p>
                     </div>}
                 </div>
 
