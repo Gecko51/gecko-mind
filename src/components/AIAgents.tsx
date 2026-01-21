@@ -70,7 +70,7 @@ export const AIAgents = () => {
         </div>
 
         <div className="text-center mt-12">
-          <div className="mb-8 text-left max-w-3xl mx-auto">
+          <div className="mb-16 text-left max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 pt-8 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Ce que j'installe pour vous :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
@@ -89,7 +89,7 @@ export const AIAgents = () => {
             </ul>
           </div>
 
-          <div className="mb-8 text-left max-w-3xl mx-auto">
+          <div className="mb-16 text-left max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Votre accompagnement :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
@@ -111,7 +111,7 @@ export const AIAgents = () => {
             </ul>
           </div>
 
-          <div className="mb-8 text-left max-w-3xl mx-auto">
+          <div className="mb-16 text-left max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">En bonus :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
