@@ -33,7 +33,7 @@ export const Hero = () => {
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-hero" />
       <div className="absolute inset-0" style={{
-      backgroundImage: "url(\"/lovable-uploads/9974ad9a-cfa1-4a32-baa7-f6b38c2ff416.jpg\")",
+      backgroundImage: "url(\"/lovable-uploads/fad69246-3a54-4bcf-8fda-2484eeb538c3.jpg\")",
       backgroundSize: "cover",
       backgroundPosition: "center"
     }} />
