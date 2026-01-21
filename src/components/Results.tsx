@@ -16,7 +16,7 @@ const metrics = [{
   icon: DollarSign,
   iconImage: topArrowIcon,
   title: "Réduction des coûts",
-  description: "Réduction des coûts et optimisation des ressources",
+  description: "Réduisez vos coûts d'acquisition drastiquement. Obtenez le travail d'une équipe juste avec un système",
   metric: "ROI",
   detail: "Diminution des coûts opérationnels liés à la main d'œuvre"
 }, {
