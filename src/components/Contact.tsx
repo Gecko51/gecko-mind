@@ -26,7 +26,7 @@ export const Contact = () => {
                 feuille de route IA
               </span>
             </h2>
-            <p className="text-lg max-w-2xl mx-auto text-white">Discutons de vos besoins d'automatisation et découvrons ensemble comment libérer le potentiel de votre activité avec un système IA.</p>
+            <p className="text-lg max-w-2xl mx-auto text-white">L'automatisation peut sembler complexe. En 30 minutes, nous transformons ce flou en un plan d'action clair, chiffré et personnalisé.</p>
           </div>
 
           <div ref={cardsRef} className={`flex justify-center transition-all duration-700 ${cardsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
