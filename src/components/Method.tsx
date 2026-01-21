@@ -67,7 +67,7 @@ export const Method = () => {
 
         <div ref={stepsRef} className={`grid md:grid-cols-2 lg:grid-cols-4 gap-8 transition-all duration-1000 ${stepsVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
           {steps.map((step, index) => {
-          return <Card key={index} className={`relative p-6 bg-gradient-card border-border/50 backdrop-blur-sm group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 ${stepsVisible ? 'animate-fade-in' : ''}`} style={{
+          return <Card key={index} className={`relative p-6 bg-black/40 border-border/50 backdrop-blur-md group hover:shadow-glow-primary/20 transition-all duration-300 hover:-translate-y-2 ${stepsVisible ? 'animate-fade-in' : ''}`} style={{
             animationDelay: `${index * 150}ms`
           }}>
                 {/* Step number */}
