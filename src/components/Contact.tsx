@@ -39,36 +39,31 @@ export const Contact = () => {
                     <img src={clipboardIcon} alt="Planifier" className="w-12 h-12 opacity-80 object-contain" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-semibold text-foreground">Planifier un rendez-vous</h3>
-                    <p className="text-primary font-medium">Découverte gratuite - 30 min</p>
+                    <h3 className="text-xl font-semibold text-foreground">Session stratégique de 30 min offerte</h3>
+                    <p className="text-primary font-medium">Diagnostique complet de votre écosystème</p>
                   </div>
                 </div>
 
-                <p style={{
-                color: '#ababab'
-              }} className="mb-6">
-                  Échangeons sur vos processus actuels et identifions les opportunités 
-                  d'automatisation les plus impactantes pour votre business.
-                </p>
+                
 
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
                     <span style={{
                     color: '#ababab'
-                  }}>Audit de vos processus métier</span>
+                  }}>Audit de vos processus actuels (sans filtre)</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
                     <span style={{
                     color: '#ababab'
-                  }}>Identification des gains de productivité</span>
+                  }}>Identification des tâches à automatiser immédiatement</span>
                   </div>
                   <div className="flex items-center gap-2 text-sm">
                     <ArrowRight className="w-4 h-4 text-primary" />
                     <span style={{
                     color: '#ababab'
-                  }}>Roadmap d'automatisation personnalisée</span>
+                  }}>Estimation chiffrée de vos économies potentielles</span>
                   </div>
                 </div>
 
