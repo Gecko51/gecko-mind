@@ -2,6 +2,7 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Linkedin, MessageCircle, Target, ArrowRight } from "lucide-react";
 import profileImage from "@/assets/profile-guillaume-new.png";
+import aboutBg from "@/assets/method-bg.jpg";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 export const About = () => {
   const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation();
@@ -9,8 +10,16 @@ export const About = () => {
     threshold: 0.3,
   });
   return (
-    <section id="about" className="py-20 bg-black">
-      <div className="container mx-auto px-6">
+    <section id="about" className="py-20 relative overflow-hidden">
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center" 
+        style={{ backgroundImage: `url(${aboutBg})` }} 
+      />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/30" />
+      
+      <div className="container mx-auto px-6 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content */}
           <div
