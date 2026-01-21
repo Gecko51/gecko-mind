@@ -129,8 +129,7 @@ export const AIAgents = () => {
             </ul>
           </div>
 
-          <p className="text-2xl font-bold text-white pt-8">
-            Tarif du système complet : <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
+          <p className="text-2xl font-bold text-white pt-8">Tarif du système complet  2795 € (au lieu de 5640 €)<span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">2795 €</span> <span className="text-white/60">(au lieu de 5640 €)</span>
           </p>
           <p className="text-white/70 mt-2">paiement en 1x, 2x, 3x avec Klarna</p>
           <div className="flex justify-center mt-6">
