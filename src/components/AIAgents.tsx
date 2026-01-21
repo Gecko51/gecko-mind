@@ -54,8 +54,6 @@ export const AIAgents = () => {
                       <IconComponent className="w-8 h-8" />
                     </div>}
 
-                  <h3 className="text-2xl font-bold mb-4 text-white">{agent.name}</h3>
-
                   <p className="text-lg bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent leading-relaxed mb-6">{agent.description}</p>
 
                   {agent.tasks.length > 0 && <div className="space-y-2 mt-4 w-full">
