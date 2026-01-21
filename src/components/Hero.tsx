@@ -10,10 +10,6 @@ export const Hero = () => {
     x: 0,
     y: 0
   });
-  const [buttonRotation, setButtonRotation] = useState({
-    x: 0,
-    y: 0
-  });
   const handleMouseMove = (e: React.MouseEvent<HTMLHeadingElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
@@ -29,25 +25,6 @@ export const Hero = () => {
   };
   const handleMouseLeave = () => {
     setRotation({
-      x: 0,
-      y: 0
-    });
-  };
-  const handleButtonMouseMove = (e: React.MouseEvent<HTMLButtonElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-    const centerX = rect.width / 2;
-    const centerY = rect.height / 2;
-    const rotateX = (y - centerY) / centerY * -15;
-    const rotateY = (x - centerX) / centerX * 15;
-    setButtonRotation({
-      x: rotateX,
-      y: rotateY
-    });
-  };
-  const handleButtonMouseLeave = () => {
-    setButtonRotation({
       x: 0,
       y: 0
     });
@@ -87,22 +64,11 @@ export const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <Button 
-              variant="hero" 
-              size="lg" 
-              className="transition-transform duration-200 ease-out cursor-pointer"
-              style={{
-                transform: `perspective(500px) rotateX(${buttonRotation.x}deg) rotateY(${buttonRotation.y}deg)`,
-                transformStyle: "preserve-3d"
-              }}
-              onMouseMove={handleButtonMouseMove}
-              onMouseLeave={handleButtonMouseLeave}
-              onClick={() => {
-                document.getElementById("ai-agents")?.scrollIntoView({
-                  behavior: "smooth"
-                });
-              }}
-            >
+            <Button variant="hero" size="lg" onClick={() => {
+            document.getElementById("ai-agents")?.scrollIntoView({
+              behavior: "smooth"
+            });
+          }}>
               Découvrir le système
             </Button>
           </div>
