@@ -11,7 +11,7 @@ const agents = [{
   image: goalIcon,
   description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
   color: "text-purple-400",
-  tasks: ["Onboarding leads/client automatisé", "CRM sur-mesure", "Synchronisation de l'agenda", "Recherche ciblée de leads", "Outreach automatisé", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Accompagnement stratégique pour mener vers l'offre"]
+  tasks: ["Onboarding leads/client automatisé", "CRM sur-mesure", "Synchronisation de l'agenda", "Recherche ciblée de leads", "Outreach automatisé", "Setting & lead nurturing", "Gestion complète du calendrier éditorial", "Création de contenu automatisé", "Accompagnement stratégique pour mener vers l'offre"]
 }];
 export const AIAgents = () => {
   const {
