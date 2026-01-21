@@ -94,7 +94,7 @@ export const AIAgents = () => {
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
+                <span>Une plateforme privée de vidéos pédagogiques avec tous les tutoriels pour maîtriser chaque outil du système et comprendre la stratégie derrière chaque clic.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
