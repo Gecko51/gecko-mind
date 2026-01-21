@@ -113,7 +113,7 @@ export const AIAgents = () => {
 
           <div className="mb-8 text-left max-w-3xl mx-auto">
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">En bonus :</h3>
-            <ul className="space-y-2 text-white/90">
+            <ul className="space-y-3 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>Les Mind Maps et Flowcharts de tous mes process internes.</span>
@@ -121,10 +121,6 @@ export const AIAgents = () => {
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                 <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
-              </li>
-              <li className="flex items-start gap-3">
-                
-                
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
