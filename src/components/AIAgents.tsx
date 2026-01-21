@@ -58,7 +58,7 @@ export const AIAgents = () => {
 
                   {agent.tasks.length > 0 && <div className="space-y-3 mt-4 w-full">
                       {agent.tasks.map((task, taskIndex) => <div key={taskIndex} className="flex items-center gap-3 text-left">
-                          <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
+                          <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
                           <span className="text-sm text-white/80">{task}</span>
                         </div>)}
                     </div>}
@@ -74,16 +74,16 @@ export const AIAgents = () => {
             <h3 className="text-2xl font-bold mb-4 pt-8 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Ce que j'installe pour vous :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Installation et configuration complète de N8N et des workflows sur un VPS   </span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>CRM sur-mesure avec interface dynamique</span>
               </li>
               
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Interface de gestion et de suivi du pipeline</span>
               </li>
             </ul>
@@ -93,15 +93,15 @@ export const AIAgents = () => {
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Votre accompagnement :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Une plateforme privée de vidéos pédagogiques avec tous les tutoriels pour maîtriser chaque outil du système et comprendre la stratégie derrière chaque clic</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>3 calls stratégiques de 45 minutes pour la mise en place du système et la prise en main</span>
               </li>
               <li className="flex items-start gap-3">
@@ -115,15 +115,15 @@ export const AIAgents = () => {
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">En bonus :</h3>
             <ul className="space-y-4 text-white/90">
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Les Mind Maps et Flowcharts de tous mes process internes</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0 mt-0.5" />
                 <span>1 mois de maintenance du système</span>
               </li>
             </ul>
