@@ -85,11 +85,11 @@ export const Testimonials = () => {
       />
       <div ref={titleRef} className={`container mx-auto px-6 mb-12 relative z-10 transition-all duration-700 ${titleVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <h2 className="text-3xl md:text-5xl font-bold text-center mb-4">
-          <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-            De la surcharge opérationnelle à{" "}
-          </span>
           <span className="text-white">
-            l'efficacité maximale
+            Ils ont arrêté de subir leur business.{" "}
+          </span>
+          <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+            Ils le pilotent !
           </span>
         </h2>
         <p className="text-center text-white max-w-2xl mx-auto">
