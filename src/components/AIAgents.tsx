@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Bot, Users, TrendingUp, CheckCircle } from "lucide-react";
+import { Bot, Users, TrendingUp, CheckCircle, Check } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import linkIcon from "@/assets/link-icon.png";
 import goalIcon from "@/assets/goal-icon.png";
@@ -58,7 +58,7 @@ export const AIAgents = () => {
 
                   {agent.tasks.length > 0 && <div className="space-y-3 mt-4 w-full">
                       {agent.tasks.map((task, taskIndex) => <div key={taskIndex} className="flex items-center gap-3 text-left">
-                          <CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0" />
+                          <Check className="w-4 h-4 text-primary flex-shrink-0" />
                           <span className="text-sm text-white/80">{task}</span>
                         </div>)}
                     </div>}
