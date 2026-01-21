@@ -67,7 +67,7 @@ export const Testimonials = () => {
   const duplicatedSecondRow = [...secondRowTestimonials, ...secondRowTestimonials];
   return <section className="py-20 overflow-hidden relative bg-black">
       <div className="absolute inset-0 opacity-50" style={{
-      backgroundImage: `url(${testimonialsBg})`,
+      backgroundImage: "url(\"/lovable-uploads/a949cb0a-58ad-48b9-bbfa-0c4af014398c.jpg\")",
       backgroundSize: 'cover',
       backgroundPosition: 'center'
     }} />
