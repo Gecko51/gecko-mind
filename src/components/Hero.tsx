@@ -37,6 +37,7 @@ export const Hero = () => {
       backgroundSize: "cover",
       backgroundPosition: "center"
     }} />
+      <div className="absolute inset-0 bg-black/20" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-6 pt-8 text-center">
