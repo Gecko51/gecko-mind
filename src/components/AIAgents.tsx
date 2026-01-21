@@ -90,7 +90,7 @@ export const AIAgents = () => {
           </div>
 
           <div className="mb-8 text-left max-w-3xl mx-auto">
-            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">En bonus :</h3>
+            <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">Votre accompagnement :</h3>
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -98,7 +98,7 @@ export const AIAgents = () => {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Un canal Slack privé pour des conseils illimités pendant 1 mois</span>
+                <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -106,7 +106,8 @@ export const AIAgents = () => {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>1 mois de maintenance du système</span>
+                <span>Et surtout, vous retrouverez, les Mind Maps et Flowcharts de tous les process : Rien n'est laissé au hasard. 
+              </span>
               </li>
             </ul>
           </div>
