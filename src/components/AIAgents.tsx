@@ -105,9 +105,8 @@ export const AIAgents = () => {
                 <span>3 calls stratégiques de 45 minutes pour la mise en place du système et la prise en main</span>
               </li>
               <li className="flex items-start gap-3">
-                <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Et surtout, vous retrouverez, les Mind Maps et Flowcharts de tous les process : Rien n'est laissé au hasard. 
-              </span>
+                
+                
               </li>
             </ul>
           </div>
@@ -117,7 +116,7 @@ export const AIAgents = () => {
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
+                <span>Les Mind Maps et Flowcharts de tous mes process internes.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
