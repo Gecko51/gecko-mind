@@ -81,15 +81,16 @@ export const AIAgents = () => {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>8 workflows N8N pour votre tunnel de vente directement connecté à vos outils</span>
+                <span>CRM sur-mesure avec interface dynamique</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>1 CRM sur-mesure avec interface dynamique</span>
+                <span>
+              </span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>1 interface de gestion et de suivi</span>
+                <span>Interface de gestion et de suivi</span>
               </li>
             </ul>
           </div>
@@ -99,7 +100,7 @@ export const AIAgents = () => {
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                <span>Un espace personnel Notion contenant tous les processus détaillés et les prompts</span>
+                <span>Un espace Notion contenant tous les processus détaillés et les prompts</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
