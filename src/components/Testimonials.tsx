@@ -105,7 +105,7 @@ export const Testimonials = () => {
                   {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-primary text-primary" />)}
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
+              <p className="text-sm text-white leading-relaxed">
                 {testimonial.text}
               </p>
             </Card>)}
@@ -126,7 +126,7 @@ export const Testimonials = () => {
                     {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-primary text-primary" />)}
                   </div>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-white leading-relaxed">
                   {testimonial.text}
                 </p>
               </Card>)}
@@ -145,7 +145,7 @@ export const Testimonials = () => {
                     {[...Array(testimonial.rating)].map((_, i) => <Star key={i} className="w-4 h-4 fill-primary text-primary" />)}
                   </div>
                 </div>
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-white leading-relaxed">
                   {testimonial.text}
                 </p>
               </Card>)}
