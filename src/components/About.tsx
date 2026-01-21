@@ -35,10 +35,7 @@ export const About = () => {
                 Architecte des automatisations
               </h2>
               <p
-                className="text-lg leading-relaxed"
-                style={{
-                  color: "#ababab",
-                }}
+                className="text-lg leading-relaxed text-white"
               >
                 Fondateur de Gecko Mind, je me positionne comme architecte et stratège des automatisations déployées,
                 avec une expertise reconnue sur les Agents IA et les solutions d'intelligence artificielle.
