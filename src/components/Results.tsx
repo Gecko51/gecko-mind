@@ -25,7 +25,7 @@ const metrics = [{
   title: "Réactivité client",
   description: "3 fois plus de réactivité sur les interactions client grâce à l'authenticité de la personnalisation",
   metric: "3x",
-  detail: "Augmentation de la fidélité client et de la satisfaction"
+  detail: "Conversion maximisée"
 }];
 export const Results = () => {
   const {
