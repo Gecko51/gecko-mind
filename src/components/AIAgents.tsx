@@ -7,7 +7,7 @@ import goalIcon from "@/assets/goal-icon.png";
 import starIcon from "@/assets/star-icon.png";
 const agents = [
   {
-    name: "Gecko Core",
+    name: "Gecko Mind",
     icon: TrendingUp,
     image: goalIcon,
     description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
