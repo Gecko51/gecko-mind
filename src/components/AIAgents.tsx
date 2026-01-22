@@ -4,12 +4,12 @@ import { Bot, Users, TrendingUp, CheckCircle, Check } from "lucide-react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import linkIcon from "@/assets/link-icon.png";
 import goalIcon from "@/assets/goal-icon.png";
-import starIcon from "@/assets/star-icon.png";
+import geckoMindLogo from "@/assets/gecko-mind-logo.png";
 const agents = [
   {
     name: "Gecko Mind",
     icon: TrendingUp,
-    image: goalIcon,
+    image: geckoMindLogo,
     description: "La stratégie qui génère des leads qualifiés sans dépenser en publicités",
     color: "text-purple-400",
     tasks: [
