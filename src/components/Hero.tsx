@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Sparkles, Zap } from "lucide-react";
-import geckoIcon from "@/assets/gecko-icon.png";
+import { ArrowRight, Sparkles, Zap, Bot } from "lucide-react";
 import heroImage from "@/assets/hero-particles.jpg";
 import supabaseLogo from "@/assets/supabase.png";
 import n8nLogo from "@/assets/n8n-logo.png";
@@ -45,7 +44,7 @@ export const Hero = () => {
         <div className="animate-fade-in">
           {/* Badge */}
           <div className="inline-flex items-center gap-2 bg-white/5 backdrop-blur-md border border-white/10 rounded-full px-4 py-2 mb-8 shadow-lg">
-            <img src={geckoIcon} alt="Gecko" className="w-4 h-4" />
+            <Bot className="w-4 h-4 text-primary" />
             <span className="text-sm font-bold text-white">Gecko Mind</span>
           </div>
 
